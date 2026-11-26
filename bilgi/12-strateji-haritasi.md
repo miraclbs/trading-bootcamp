@@ -92,6 +92,11 @@ Kırılım sonrası 20 günlük getiri, sembolün kendi eğilimi çıkarıldıkt
 - **RSI-2 avantajı pullback'ten farklı olarak 2015 sonrasında da sürüyor.** Fark dört dönemin dördünde de pozitif. Ama zayıf bir 2015-19 dönemi var.
 - İşlem başına avantaj gerçek. Ama portföy düzeyinde sınırlı kalıyor: az işlem, kümelenme ve sadece endeks (yukarıdaki %2,9 yıllık getiri ve %11 challenge sonucu geçerli).
 - **Emtiada trailing stop** (03) de zaman testinden geçti (`verify_trailing_robustness.py`). 2015 sonrasında ETF'lerde +0,07R ve futures'ta +0,07R, sabit hedefle ~0.
+- **RSI-2 başka piyasalarda ve satışta (2026-11-27, `verify_rsi2_genis.py`, README #89).**
+  - Alış yönü 2015+ rastgeleye göre: endeks +0,28R (se 0,06), büyük ABD hisseleri +0,10 (0,05), sağlık +0,11 (0,08), emtia ~0, parite ~0.
+  - Kripto −0,19 ve Türk hisseleri −0,12: bu piyasalarda düşüşü almak rastgeleden kötü, çünkü trend yapıyorlar.
+  - Satış aynası (SMA200 altı, RSI(2) > 90) hiçbir grupta maliyet öncesi bile anlamlı kâr etmiyor.
+  - İlişkisiz piyasalarda sinyaller SPY ile yalnız %13-15 çakışıyor, ama orada avantaj yok. → RSI-2 endeks alışına özgü. Emtia, kripto ve döviz için trend takibi kullan.
 - Yani zaman testinden geçen iki işlem başı avantaj kaldı: **endekste RSI-2** ve **emtiada trailing çıkış**. 12 ay momentumunun 2015 sonrası Sharpe'ı da 0,61.
 **Genel ders (20. ve 24. tur; ⚠️ 36. turda pullback avantajının 2015 sonrası ~0 olduğu bulundu, 04 §5b):** Hisse endekslerinde günlük grafikteki iki gerçek avantaj (pullback ve RSI-2) **işlem başına pozitif**, ama:
 1. Sinyaller endeksler arasında aynı günlerde kümeleniyor.

@@ -1,0 +1,22 @@
+SPY 2000-2026 medyan gün içi aralık % (Pzt..Cum): 0.96 1.02 1.07 1.11 1.05 | Pzt/diğer log-fark t=-3.9
+SPY 2020-2026 medyan gün içi aralık % (Pzt..Cum): 0.94 0.96 0.99 1.11 1.05 | Pzt/diğer log-fark t=-1.8
+SPY 1h (2024-01-02..2026-11-25) saat payları:
+   09:30  |getiri| %21.1  varyans %25.0  aralık %21.0
+   10:30  |getiri| %15.6  varyans %15.0  aralık %15.9
+   11:30  |getiri| %13.8  varyans %12.5  aralık %13.6
+   12:30  |getiri| %13.5  varyans %17.7  aralık %13.1
+   13:30  |getiri| %12.9  varyans %11.9  aralık %12.7
+   14:30  |getiri| %11.6  varyans %9.1  aralık %12.2
+   15:30  |getiri| %11.5  varyans %8.8  aralık %11.6
+   İLK 2 SAAT (09:30-11:30, seans süresinin %31'i): |getiri| %37, varyans %40, aralık %37
+QQQ 2000-2026 medyan gün içi aralık % (Pzt..Cum): 1.39 1.40 1.43 1.50 1.38 | Pzt/diğer log-fark t=-2.5
+QQQ 2020-2026 medyan gün içi aralık % (Pzt..Cum): 1.39 1.35 1.39 1.59 1.43 | Pzt/diğer log-fark t=-1.6
+QQQ 1h (2024-01-02..2026-11-25) saat payları:
+   09:30  |getiri| %24.9  varyans %33.3  aralık %23.8
+   10:30  |getiri| %15.9  varyans %15.4  aralık %16.5
+   11:30  |getiri| %13.5  varyans %11.7  aralık %13.7
+   12:30  |getiri| %12.7  varyans %13.9  aralık %12.5
+   13:30  |getiri| %11.9  varyans %10.4  aralık %11.9
+   14:30  |getiri| %10.7  varyans %7.9  aralık %11.4
+   15:30  |getiri| %10.5  varyans %7.4  aralık %10.2
+   İLK 2 SAAT (09:30-11:30, seans süresinin %31'i): |getiri| %41, varyans %49, aralık %40

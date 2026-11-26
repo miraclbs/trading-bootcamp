@@ -1,0 +1,74 @@
+Fit Mom Trader IB/Asya testi (LfSeAMzKjwM). 1m HistData, NY saati, 2020-2026.
+R = stop mesafesi. 'Aynı gün şans' = aynı gün rastgele dakikada aynı yön/stop/hedef. Fark t ≥ 2 → setup kanıtı.
+
+=== NAS100: 2020-01-01 → 2026-11-13, 2,290,337 1m mum. Ort. |1m getiri| (bp) 9:25-9:35: 2.7 2.1 2.4 2.5 2.4 9.2 6.0 5.7 5.1 4.8 5.1
+  RTH seansı 1603, Asya seansı 1762
+  TC-onay        n=  543 (  78/yıl) kazanma %52.7 (hedef/stop başa baş ≈%53.6, süre çıkışı %  1) ort. hedef/stop 0.92R
+                 brüt +0.001R (t +0.0) | net -0.018R (t -0.4, maliyet 0.019R) | aynı gün şans -0.019R → fark +0.020 (t +0.4) | rastgele gün şans +0.001R
+                 yıllara göre net R: 2020:+0.02  2021:-0.17  2022:-0.03  2023:-0.14  2024:+0.11  2025:+0.19  2026:-0.20
+  TC-limit RR1   n= 1037 ( 148/yıl) kazanma %46.3 (hedef/stop başa baş ≈%50.0, süre çıkışı %  5) ort. hedef/stop 1.00R
+                 brüt -0.021R (t -0.7) | net -0.037R (t -1.2, maliyet 0.017R) | aynı gün şans -0.049R → fark +0.028 (t +0.9) | rastgele gün şans -0.006R
+                 yıllara göre net R: 2020:+0.03  2021:+0.04  2022:-0.05  2023:-0.05  2024:-0.08  2025:-0.09  2026:-0.06
+  TC-limit RR2   n= 1037 ( 148/yıl) kazanma %31.4 (hedef/stop başa baş ≈%33.3, süre çıkışı %  2) ort. hedef/stop 2.00R
+                 brüt -0.031R (t -0.7) | net -0.064R (t -1.5, maliyet 0.033R) | aynı gün şans -0.037R → fark +0.006 (t +0.1) | rastgele gün şans -0.006R
+                 yıllara göre net R: 2020:+0.08  2021:-0.04  2022:-0.15  2023:-0.14  2024:-0.05  2025:-0.05  2026:-0.14
+  TC-limit RR3   n= 1037 ( 148/yıl) kazanma %22.8 (hedef/stop başa baş ≈%25.0, süre çıkışı %  1) ort. hedef/stop 3.00R
+                 brüt -0.067R (t -1.3) | net -0.117R (t -2.2, maliyet 0.050R) | aynı gün şans -0.023R → fark -0.044 (t -0.8) | rastgele gün şans +0.009R
+                 yıllara göre net R: 2020:-0.01  2021:-0.18  2022:-0.23  2023:-0.16  2024:-0.17  2025:+0.14  2026:-0.25
+  FA             n= 1607 ( 230/yıl) kazanma %48.4 (hedef/stop başa baş ≈%50.2, süre çıkışı %  3) ort. hedef/stop 1.08R
+                 brüt -0.019R (t -0.6) | net -0.043R (t -1.3, maliyet 0.023R) | aynı gün şans -0.050R → fark +0.031 (t +1.0) | rastgele gün şans +0.001R
+                 yıllara göre net R: 2020:-0.02  2021:-0.11  2022:-0.09  2023:-0.10  2024:+0.01  2025:+0.06  2026:-0.07
+  FA ≤30dk       n= 1402 ( 200/yıl) kazanma %45.9 (hedef/stop başa baş ≈%47.1, süre çıkışı %  1) ort. hedef/stop 1.28R
+                 brüt -0.021R (t -0.6) | net -0.047R (t -1.3, maliyet 0.026R) | aynı gün şans -0.073R → fark +0.052 (t +1.5) | rastgele gün şans -0.005R
+                 yıllara göre net R: 2020:-0.05  2021:-0.12  2022:-0.07  2023:-0.08  2024:+0.00  2025:+0.06  2026:-0.09
+  ASYA FA→orta   n=  690 (  99/yıl) kazanma %36.2 (hedef/stop başa baş ≈%37.8, süre çıkışı %  3) ort. hedef/stop 1.89R
+                 brüt -0.042R (t -0.8) | net -0.106R (t -1.9, maliyet 0.064R) | aynı gün şans -0.093R → fark +0.051 (t +1.0) | rastgele gün şans +0.029R
+                 yıllara göre net R: 2020:-0.23  2021:-0.02  2022:+0.09  2023:-0.07  2024:-0.24  2025:-0.17  2026:-0.13
+  ASYA FA→2R     n=  696 (  99/yıl) kazanma %27.3 (hedef/stop başa baş ≈%33.3, süre çıkışı %  9) ort. hedef/stop 2.00R
+                 brüt -0.047R (t -0.9) | net -0.110R (t -2.2, maliyet 0.063R) | aynı gün şans -0.082R → fark +0.036 (t +0.7) | rastgele gün şans +0.008R
+                 yıllara göre net R: 2020:+0.08  2021:-0.09  2022:+0.00  2023:-0.02  2024:-0.13  2025:-0.31  2026:-0.33
+
+=== XAUUSD: 2020-01-01 → 2026-11-13, 2,330,011 1m mum. Ort. |1m getiri| (bp) 9:25-9:35: 3.1 2.7 2.6 2.5 2.6 6.6 4.6 4.2 3.9 3.9 4.0
+  RTH seansı 1623, Asya seansı 1766
+  TC-onay        n=  715 ( 102/yıl) kazanma %48.7 (hedef/stop başa baş ≈%47.3, süre çıkışı %  3) ort. hedef/stop 1.25R
+                 brüt +0.083R (t +1.8) | net -0.015R (t -0.3, maliyet 0.098R) | aynı gün şans -0.020R → fark +0.103 (t +2.3) | rastgele gün şans -0.019R
+                 yıllara göre net R: 2020:-0.14  2021:+0.02  2022:-0.04  2023:-0.22  2024:-0.05  2025:+0.16  2026:+0.09
+  TC-limit RR1   n=  996 ( 142/yıl) kazanma %46.6 (hedef/stop başa baş ≈%50.0, süre çıkışı % 13) ort. hedef/stop 1.00R
+                 brüt +0.057R (t +1.9) | net +0.003R (t +0.1, maliyet 0.054R) | aynı gün şans -0.031R → fark +0.088 (t +3.0) | rastgele gün şans +0.005R
+                 yıllara göre net R: 2020:-0.05  2021:-0.03  2022:-0.06  2023:-0.06  2024:+0.06  2025:+0.04  2026:+0.09
+  TC-limit RR2   n=  996 ( 142/yıl) kazanma %34.4 (hedef/stop başa baş ≈%33.3, süre çıkışı %  5) ort. hedef/stop 2.00R
+                 brüt +0.103R (t +2.3) | net -0.006R (t -0.1, maliyet 0.109R) | aynı gün şans -0.061R → fark +0.164 (t +3.6) | rastgele gün şans -0.008R
+                 yıllara göre net R: 2020:-0.20  2021:-0.08  2022:-0.12  2023:-0.16  2024:+0.14  2025:+0.11  2026:+0.22
+  TC-limit RR3   n=  996 ( 142/yıl) kazanma %24.8 (hedef/stop başa baş ≈%25.0, süre çıkışı %  2) ort. hedef/stop 3.00R
+                 brüt +0.040R (t +0.7) | net -0.123R (t -2.2, maliyet 0.163R) | aynı gün şans -0.040R → fark +0.080 (t +1.4) | rastgele gün şans -0.008R
+                 yıllara göre net R: 2020:-0.26  2021:-0.22  2022:-0.30  2023:-0.27  2024:+0.10  2025:-0.02  2026:+0.06
+  FA             n= 1690 ( 241/yıl) kazanma %38.1 (hedef/stop başa baş ≈%43.4, süre çıkışı %  6) ort. hedef/stop 1.46R
+                 brüt -0.043R (t -1.3) | net -0.164R (t -5.0, maliyet 0.121R) | aynı gün şans -0.058R → fark +0.015 (t +0.5) | rastgele gün şans -0.007R
+                 yıllara göre net R: 2020:-0.20  2021:-0.23  2022:-0.08  2023:-0.32  2024:-0.12  2025:-0.12  2026:-0.16
+  FA ≤30dk       n= 1536 ( 219/yıl) kazanma %37.5 (hedef/stop başa baş ≈%41.3, süre çıkışı %  3) ort. hedef/stop 1.62R
+                 brüt -0.044R (t -1.2) | net -0.175R (t -4.9, maliyet 0.130R) | aynı gün şans -0.070R → fark +0.026 (t +0.7) | rastgele gün şans +0.000R
+                 yıllara göre net R: 2020:-0.20  2021:-0.23  2022:-0.11  2023:-0.34  2024:-0.11  2025:-0.11  2026:-0.19
+  ASYA FA→orta   n=  808 ( 115/yıl) kazanma %43.4 (hedef/stop başa baş ≈%46.2, süre çıkışı %  3) ort. hedef/stop 1.23R
+                 brüt -0.036R (t -0.8) | net -0.255R (t -5.5, maliyet 0.220R) | aynı gün şans -0.067R → fark +0.032 (t +0.7) | rastgele gün şans +0.018R
+                 yıllara göre net R: 2020:-0.15  2021:-0.24  2022:-0.53  2023:-0.55  2024:-0.21  2025:-0.06  2026:-0.02
+  ASYA FA→2R     n=  829 ( 118/yıl) kazanma %28.0 (hedef/stop başa baş ≈%33.3, süre çıkışı % 10) ort. hedef/stop 2.00R
+                 brüt -0.036R (t -0.8) | net -0.252R (t -5.3, maliyet 0.216R) | aynı gün şans -0.023R → fark -0.012 (t -0.3) | rastgele gün şans +0.010R
+                 yıllara göre net R: 2020:-0.30  2021:-0.23  2022:-0.44  2023:-0.41  2024:-0.13  2025:-0.06  2026:-0.29
+
+ÖZET (net R, şansa göre fark):
+  NAS100  TC-onay        n=  543 kazanma %52.7 (başa baş %53.6) net -0.018R (t -0.4) | şansa göre +0.020R (t +0.4)
+  NAS100  TC-limit RR1   n= 1037 kazanma %46.3 (başa baş %50.0) net -0.037R (t -1.2) | şansa göre +0.028R (t +0.9)
+  NAS100  TC-limit RR2   n= 1037 kazanma %31.4 (başa baş %33.3) net -0.064R (t -1.5) | şansa göre +0.006R (t +0.1)
+  NAS100  TC-limit RR3   n= 1037 kazanma %22.8 (başa baş %25.0) net -0.117R (t -2.2) | şansa göre -0.044R (t -0.8)
+  NAS100  FA             n= 1607 kazanma %48.4 (başa baş %50.2) net -0.043R (t -1.3) | şansa göre +0.031R (t +1.0)
+  NAS100  FA ≤30dk       n= 1402 kazanma %45.9 (başa baş %47.1) net -0.047R (t -1.3) | şansa göre +0.052R (t +1.5)
+  NAS100  ASYA FA→orta   n=  690 kazanma %36.2 (başa baş %37.8) net -0.106R (t -1.9) | şansa göre +0.051R (t +1.0)
+  NAS100  ASYA FA→2R     n=  696 kazanma %27.3 (başa baş %33.3) net -0.110R (t -2.2) | şansa göre +0.036R (t +0.7)
+  XAUUSD  TC-onay        n=  715 kazanma %48.7 (başa baş %47.3) net -0.015R (t -0.3) | şansa göre +0.103R (t +2.3)
+  XAUUSD  TC-limit RR1   n=  996 kazanma %46.6 (başa baş %50.0) net +0.003R (t +0.1) | şansa göre +0.088R (t +3.0)
+  XAUUSD  TC-limit RR2   n=  996 kazanma %34.4 (başa baş %33.3) net -0.006R (t -0.1) | şansa göre +0.164R (t +3.6)
+  XAUUSD  TC-limit RR3   n=  996 kazanma %24.8 (başa baş %25.0) net -0.123R (t -2.2) | şansa göre +0.080R (t +1.4)
+  XAUUSD  FA             n= 1690 kazanma %38.1 (başa baş %43.4) net -0.164R (t -5.0) | şansa göre +0.015R (t +0.5)
+  XAUUSD  FA ≤30dk       n= 1536 kazanma %37.5 (başa baş %41.3) net -0.175R (t -4.9) | şansa göre +0.026R (t +0.7)
+  XAUUSD  ASYA FA→orta   n=  808 kazanma %43.4 (başa baş %46.2) net -0.255R (t -5.5) | şansa göre +0.032R (t +0.7)
+  XAUUSD  ASYA FA→2R     n=  829 kazanma %28.0 (başa baş %33.3) net -0.252R (t -5.3) | şansa göre -0.012R (t -0.3)

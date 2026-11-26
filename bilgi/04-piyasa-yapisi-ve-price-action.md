@@ -326,6 +326,42 @@ Kaynak: Brooks, "Trading the Open" (TradersEXPO, S9b7hwEzMSk). Brooks'un rakamla
    - Prop hesabında pozisyonu iki katına çıkarmak sabit risk kuralını bozar ve **günlük limiti tek harekette doldurabilir**.
    - Brooks bile "çoğu trader yapmamalı" diyor. Bu bilgi tabanında test edilen hiçbir senaryoda ortalama düşürme beklentiyi artırmadı.
    - Kural: **zarardaki işleme ekleme yok**. Ekleme ancak önceden planlanmış toplam riskin içinde ve kârdaki işlemde yapılır (02 §6c).
+
+### 6b-7. ✘ Initial balance (IB) setup'ları: "ekmek teknem, en iyi setup'ım %70 kazanıyor" (Fit Mom Trader, LfSeAMzKjwM, 2026-11-27)
+
+**İddialar** (NQ ve altın, "2 ayda 104.000 $ prop ödemesi" başlıklı video):
+1. **TC (trend devamı)**: IB (9:30-10:30 ET) yukarı trendliyse fiyat IB ortasına (%50) geri çekilir ve reddedilir. Long aç, hedef IB tepesi, stop son swing dibinin altı. Aşağı için tersi. Anchored VWAP orada ise ek onay.
+2. **FA (failed auction)**: Fiyat IB dışına çıkar, tutunamaz, içeri kapanır. IB ortasına doğru işlem aç, stop swing ucunun ötesinde.
+3. **Asya**: 18:00-20:00 ET aralığı. Tokyo açılışından (20:00) sonra uç süpürülüp reddedilirse ters yöne işlem.
+4. "En iyi setup'ım ~%70 kazanıyor."
+
+**Test** (`arastirma/verify_ib_fitmom.py` → verify_ib_fitmom_sonuc.txt):
+- **Veri**: HistData 1 dakikalık, 2020 → 2026-11. NAS100 (NSXUSD, `veri_nq_indir.py`) 1.603 seans, spot altın 1.623 seans. New York saati, yaz saati dahil. 9:30'daki oynaklık sıçraması saat hizasını doğruluyor.
+- **Kurallar** sonuçlar görülmeden sabitlendi.
+  - Onay için 5 dakikalık mum kapanışı kullanıldı. Girişler 10:30-14:59 arasında, açık işlem en geç 15:59'da kapanıyor.
+  - Swing stopu IB aralığının %10'undan darsa %10'a genişletildi.
+  - Aynı mumda hem stop hem hedef değerse işlem kayıp sayıldı.
+  - Maliyet: NQ 0,5 puan, altın 0,25 $ (iyimser futures maliyeti).
+- **Kıyas (şans makinesi)**: Her işlem için aynı gün, aynı pencerede 20 rastgele dakika seçildi; yön, stop ve hedef mesafesi aynı. İkinci kıyas: rastgele gün, mesafeler o günün IB aralığına ölçeklendi.
+
+| Setup | NQ net R (t) | NQ şansa göre (t) | Altın net R (t) | Altın şansa göre (t) | Kazanma oranı / başa baş |
+|---|---|---|---|---|---|
+| TC-onay (videodaki kural) | -0,02 (-0,4) | +0,02 (+0,4) | -0,02 (-0,3) | **+0,10 (+2,3)** | NQ %53 / %54, altın %49 / %47 |
+| TC-limit, RR 2 | -0,06 (-1,5) | +0,01 (+0,1) | -0,01 (-0,1) | **+0,16 (+3,6)** | %31-34 / %33 |
+| FA | -0,04 (-1,3) | +0,03 (+1,0) | -0,16 (-5,0) | +0,02 (+0,5) | NQ %48 / %50, altın %38 / %43 |
+| Asya FA → aralık ortası | -0,11 (-1,9) | +0,05 (+1,0) | -0,26 (-5,5) | +0,03 (+0,7) | %36-43 / %38-46 |
+
+**Sonuçlar:**
+1. ✘ **NQ'da hiçbir setup'ın avantajı yok.** Brütte ~0, maliyet sonrası eksi. Hiçbir varyant aynı gün rastgele girişten anlamlı biçimde iyi değil.
+2. ✘ **"%70 kazanma" hiçbir varyantta yok.** En yüksek oran %53, ve her setup'ta kazanma oranı hedef/stop geometrisinin başa baş oranına eşit. İsabet RR'den bağımsız bir beceri ölçüsü değildir: hedefi stoptan yakın koyan her kural %70 kazanır (03, 11 #93).
+3. ✘ **FA ve Asya süpürmesi iki piyasada da eksi.** Bu, PDH/PDL ve Asya süpürme bulgularıyla aynı (§6b-5, 05): kırılımdan sonra içeri kapanmak dönüşü öngörmüyor.
+4. ⚠️ **Tek ipucu: altında TC, brütte şanstan iyi** (t +2,3…+3,6). Ama:
+   - Maliyetten sonra ~0R.
+   - Artı yıllar 2024-2026'da toplanıyor (RR 2 net: 2024 +0,14, 2025 +0,11, 2026 +0,22; 2020-2023 her yıl eksi). O dönemde altın büyük rallide ve IB aralığı 2-3 kat genişledi (medyan 8 $ → 26 $), maliyetin R içindeki payı küçüldü.
+   - NQ'da tekrarlanmadı. 16 varyant denendi, çoklu test riski var.
+   - → **İzleme listesi, kanıt değil.** Önce başka piyasada (gümüş, ES) ve ileri veride tekrarlanmalı.
+5. Videodaki seviye araçlarının (POC/VAH/VAL, PDH/PDL, arz-talep bölgeleri) avantajı bu tabanda zaten test edildi ve rastgele seviyelerden farksız çıktı (06, 05, 11 #44-47). Arz-talep bölgeleri öznel olduğu için test edilemeyen kısımda kalıyor.
+6. ✔ **Risk bölümü doğru**: sabit dolar risk, drawdown'dan geriye hesap (2.000 $ DD / 5 gün = günde 400 $ = işlem başına 200 $, yani **10R tampon**, README #26), kilitlenen günlük zarar limiti, haberde işlem yok, günlük tutma.
 ## 6c. Brooks'un günlük grafik işaretleme rutini ("5 Steps to Finding Today's Trades", AGyOld9iY8U)
 
 Detay: [13-pratik-rutini.md](13-pratik-rutini.md). Özet: her gün kapanıştan sonra (1) kanal ve wedge çizgileri → (2) çift tepe/dip ve üçgenler → (3) özel barlar (büyük bar, inside, outside, ioi, ardışık bar) → (4) alış ve satış giriş kutuları → (5) gerekçe metinleri.

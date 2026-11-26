@@ -439,6 +439,33 @@ Kaynak kararları: [kaynaklar/kanal-degerlendirmeleri.md](kaynaklar/kanal-degerl
       - Tutan tek büyük grup USD/JPY 4H long: 317 kural, 2019-26 toplamı medyan +11,7R, %73'ü kârlı.
     - **Sonuç:** uzun geçmiş şansı büyük ölçüde temizledi. Kalan avantajlar küçük: kural başına yılda ~1-3R, işlem başı +0,02…0,06R. Altın long kuralları rejime (altın boğası) bağlı. Bot için en makul aday EUR/USD 1H short; o da maliyete yakın.
 
+89. **RSI-2 endeks dışında ve satış yönünde: alış yalnız hisse endekslerinde (ve zayıf olarak büyük ABD hisseleri ve sağlıkta) çalışıyor; emtia, kripto, Türk hisseleri ve paritelerde yok; satış yönü hiçbir yerde kâr etmiyor** (`arastirma/verify_rsi2_genis.py` → verify_rsi2_genis_sonuc.txt; Yahoo günlük, 2003+; 2026-11-27).
+    - **Kural:** alış = kapanış > SMA200 ve RSI(2) < 10, ilk kapanış > SMA5'te çık (en çok 10 gün); satış aynası = kapanış < SMA200 ve RSI(2) > 90. Her işlem aynı sembol, 5 yıllık dönem, rejim ve yönde 5 rastgele girişle kıyaslandı (R = ATR, maliyetsiz).
+    - **Alış, 2015+, rastgeleye göre fark (se):**
+      - endeks +0,28 (0,06), 2015 öncesi +0,20;
+      - büyük ABD hisseleri +0,10 (0,05); GOOGL, AMZN, META, MSFT iyi, NVDA ~0, TSLA −0,16;
+      - sağlık +0,11 (0,08);
+      - emtia −0,02 (0,13): altın +0,05, gümüş −0,24, petrol +0,11, hepsi gürültü;
+      - kripto −0,19 (0,13);
+      - Türkiye −0,12 (0,08): BIST 100 −0,38;
+      - parite +0,01 (2015 öncesi +0,18).
+    - **Satış:** RSI-2 satışının kendi sonucu endekste ~0R, büyük hisselerde −0,08R, sağlıkta −0,19R, emtiada −0,36R, kriptoda −0,63R. Rastgele satıştan iyi görünmesi rastgele satışın yükselen piyasada kaybetmesinden. Maliyet sonrası hiçbir grupta kâr yok.
+    - **Kümelenme:** alış sinyallerinin SPY sinyaliyle aynı günlere (±1 gün) düşme payı endekste %56, büyük ABD hisselerinde %32, sağlıkta %22, emtia, kripto, parite ve Türkiye'de %13-15. SPY ile günlük korelasyon (2015+): pariteler ~0, altın +0,09, Türk hisseleri +0,11…0,23, petrol, gümüş ve BTC +0,24, büyük ABD hisseleri +0,5…0,75.
+    - **Ders:** ilişkisiz piyasalar çeşitlendirir, ama yalnız orada da avantaj varsa. RSI-2'nin avantajı olan yerler (endeks, büyük ABD hisseleri) birbiriyle ilişkili. İlişkisiz piyasalar (emtia, kripto, döviz) kısa vadede dönmüyor, trend yapıyor; onlar için doğru araç trend takibi (17 §2, §7). Kriptoda ve Türk hisselerinde düşüşü almak rastgeleden kötü.
+
+90. **10 prop hesabı almak avantaj yaratmaz: beklenen geçen hesap = 10 × tek hesap olasılığı. Bağımsız denemelerde "en az biri geçer" %72 (-0,10R) ile %98 (0R) arası; aynı işlemi 10 hesapta açınca tek hesapla aynı (%12 / %33)** (`arastirma/verify_10_hesap.py` → verify_10_hesap_sonuc.txt; 09 §4y; 2026-11-27).
+    - FTMO 2-Step 100K 540 €, 200K 1.080 €; 10 hesap 5.400 € / 10.800 €. Büyüklük geçme olasılığını değiştirmez.
+    - FTMO'da trader başına toplam 400.000 $ sınırı var, aynı anda en fazla 4 × 100K.
+    - Art arda alıp geçince durmak, aynı olasılığa ortalama ~6 ücretle ulaşır (-0,10R).
+    - **Geç + %10 büyüt + çek** (`verify_10_hesap_cekim.py`): %1 riskle tek hesapta -0,10R %3, 0R %17, +0,10R %46. %90 için 75 / 13 / 4 hesap. Sektör ortalamasında çekim başına net -11.000 $, başa baş ~-0,05R.
+
+91. **Initial balance (IB) setup'ları NQ'da avantajsız, altında maliyet sonrası ~0; "%70 kazanma" ve "2 ayda 100.000 $" desteklenmedi** (`arastirma/verify_ib_fitmom.py` → verify_ib_fitmom_sonuc.txt; 04 §6b-7; 11 #93; 2026-11-27).
+    - Veri: HistData 1m, NAS100 ve spot altın, 2020-2026, ~1.600 seans. Kıyas: aynı gün rastgele dakikada aynı yön, stop ve hedef.
+    - IB ortasına geri çekilme (TC) ve failed auction (FA): NQ'da net -0,02…-0,06R, şansa göre fark t < 1,5. FA ve Asya süpürmesi altında net -0,16…-0,26R.
+    - Kazanma oranı en fazla %53 ve her setup'ta hedef/stop geometrisinin başa baş oranına eşit.
+    - Tek ipucu altında TC: brütte şanstan +0,10…0,16R iyi (t 2,3-3,6). Ama net ~0, artı yıllar yalnız 2024-2026 altın rallisi ve NQ'da tekrar yok → izleme listesi.
+    - 200 $ riskle 2 ayda 104.000 $ tek hesapta günde ~12R demek; ancak çok sayıda kopya hesapla mümkün, bu da beceri değil bahis büyüklüğü.
+
 ## Çalışma prensipleri
 
 - Her yeni bilgi **en az iki bağımsız kaynakla** veya simülasyon/test ile doğrulanır. Doğrulanamayan bilgi "pratik kural" ya da "iddia" olarak etiketlenir.

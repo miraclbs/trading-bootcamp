@@ -1036,6 +1036,71 @@ Fonlu hesap başına net değer ve ücret dolarına düşen ödeme:
 
 **Bu tabanla tutarlılık**: değerlendirmede maksimum risk (§4w, §4v), hesap döndürme yasağı (§4n), hayatta kalma yanlılığı (§4j), kumar ile trading sınırı (08 §8). Kendisinin de söylediği gibi bu yol bir "oyun". Ödemelerin bir kısmı firmanın tamponundan, bir kısmı bir rejimden geliyor, ve bedeli sağlık.
 
+## 4y. ✔ "10 hesap alsak en az biri geçer mi?" Fiyatlar ve olasılık (2026-11-27, simülasyon)
+
+**Fiyatlar** (liste fiyatı, indirimsiz; resmi sayfalar fiyatı JS ile yüklediği için üçüncü taraf derlemelerden, Eylül-Kasım 2026; satın almadan önce sitede kontrol et. 2026-11-27'de FTMO'da "Black Friday %30'a varan indirim" afişi var):
+
+| Firma / plan | 100K | 200K | Not |
+|---|---|---|---|
+| FTMO 2-Step | 540 € | 1.080 € | Ücret ilk ödemede iade, statik %10 |
+| FTMO 1-Step | 499 € | 999 € | İade yok, %3 günlük, gün sonu trailing (§4p) |
+| FundedNext Stellar 2-Step | 529,99 $ (eski 549,99) | 1.049,99 $ (eski 1.099,99) | |
+| The5ers High Stakes | 545 $ | yok (en büyük 100K) | Aynı anda en fazla 1 × 100K |
+| Alpha Capital Alpha Pro | ~397-447 $ | 847-1.097 $ | %6/%8/%10 sürümleri |
+
+**10 hesabın faturası**: FTMO 2-Step 10 × 100K = **5.400 €**, 10 × 200K = **10.800 €**.
+
+**Sınır**: FTMO'nun resmi SSS'si (2026-09-30): "tüm hesaplar ve ürünlerde toplam sermaye, trader ya da strateji başına **400.000 $** (ölçeklendirme öncesi)". Aynı işlemleri kopyalayan hesaplar da buna sayılır, aşılırsa hesaplar askıya alınabilir. Yani FTMO'da aynı anda en fazla 4 × 100K ya da 2 × 200K. 10 hesap ancak farklı firmalarla ya da art arda alınarak olur. Challenge aşamasındaki hesapların sayıldığı açıkça yazmıyor, "tüm hesaplar" ifadesi sayıldığını düşündürüyor.
+
+**Simülasyon** (`arastirma/verify_10_hesap.py`): FTMO 2-Step kuralları, günde 1 işlem, RR 2, %1 risk, 20.000 deneme. q = 10 hesabın aynı işlemi alma oranı (q=0: bağımsız ya da art arda; q=1: aynı işlem 10 hesapta aynı anda).
+
+| Avantaj (R/işlem) | Tek hesap geçer | 10 hesap, q=0 | q=0,5 | q=0,8 | q=1 | Beklenen geçen hesap |
+|---|---|---|---|---|---|---|
+| -0,10 (sektör ortalaması, §4h) | %12 | **%72** | %48 | %32 | **%12** | 1,2 |
+| -0,05 | %21 | %91 | %67 | %49 | %21 | 2,1 |
+| 0 | %33 | %98 | %82 | %66 | %33 | 3,3 |
+| +0,10 | %61 | %100 | %97 | %89 | %61 | 6,1 |
+| +0,20 | %82 | %100 | %100 | %98 | %82 | 8,2 |
+
+%2 riskte tek hesap: %17 / %22 / %28 / %41 / %55. "En az bir ilk ödeme" olasılığı geçmekten belirgin düşük: -0,10R'de q=0 ile %55, q=1 ile %8.
+
+**Sonuçlar:**
+1. **Hesap büyüklüğü geçme olasılığını değiştirmez.** Kurallar yüzde olduğu için 200K, 100K ile aynı olasılıkla geçer. Ücret ve ödeme 2 kat, yani 200K yalnız bahsi büyütür.
+2. **10 hesap avantaj yaratmaz.** Beklenen geçen hesap sayısı = 10 × tek hesap olasılığı, korelasyondan bağımsız. Değişen yalnız dağılım: bağımsız hesaplarda "en az biri" sık olur, aynı işlemi her yerde açınca 10 hesap tek hesap gibi davranır (-0,10R'de %72 yerine %12, ama ücret 10 kat).
+3. **Aynı anda 10 hesap yerine art arda al.** Geçince durursan aynı %72'ye beklenen 6 ücretle ulaşırsın (-0,10R; 0R'de ~3, +0,1R'de ~1,6), yani 10 yerine ~3.200 €. İstenen bağımsızlığı da kendiliğinden sağlar.
+4. **Geçmek para değil.** -0,10R'lik trader için deneme başına net beklenti ~0 ya da eksi (§4l, §4w). 10 hesap bu sıfırı 10 kere toplar. Ödeme zinciri ilk ödemede incelir (§4s).
+5. Çok hesaba aynı işlemi kopyalamak hem FTMO'nun sermaye sınırına takılır hem tek büyük bahistir (02 §6c, 19).
+
+**"Kaç hesapta en az biri neredeyse kesin geçer?"** Bağımsız denemeler, n = ⌈ln(1−hedef) / ln(1−p)⌉, %1 risk. Art arda alıp ilk geçişte durursan ortalama ücret sayısı ≈ 1/p.
+
+| Avantaj | Tek hesap p | %90 için | %95 için | %99 için | Geçişe kadar ortalama ücret (100K FTMO) |
+|---|---|---|---|---|---|
+| -0,10 | %12 | 19 | 24 | 37 (19.980 €) | ~8 (~4.500 €) |
+| -0,05 | %21 | 10 | 13 | 20 | ~5 (~2.500 €) |
+| 0 | %33 | 6 | 8 | 12 | ~3 (~1.600 €) |
+| +0,10 | %61 | 3 | 4 | 5 | ~1,6 (~870 €) |
+| +0,20 | %82 | 2 | 2 | 3 | ~1,2 (~650 €) |
+
+Avantaj, gereken hesap sayısını hesap sayısından çok daha fazla düşürür: -0,10R'den +0,10R'ye geçmek %90 için gereken hesabı 19'dan 3'e indirir.
+
+**Asıl hedef: geç + fonlu hesabı %10 büyüt + çek** (`arastirma/verify_10_hesap_cekim.py`). Fonlu hesapta -%10'a inmeden +%10. Ödeme 8.000 $ (%80) + ücret iadesi. Art arda bağımsız denemeler, 540 € ≈ 605 $:
+
+| Avantaj | Risk | Geçer | Geçer + %10 çeker | Geçenlerden çeken | %90 / %95 için hesap | Çekime kadar ort. ücret | Çekim başına net |
+|---|---|---|---|---|---|---|---|
+| -0,10 | %1 | %12 | %3,1 | %26 | 75 / 97 | ~33 (~17.700 €) | **-11.100 $** |
+| -0,05 | %1 | %21 | %7,8 | %37 | 29 / 38 | ~13 | ~+800 $ (başa baş) |
+| 0 | %1 | %33 | %16,6 | %50 | 13 / 17 | ~6 (~3.240 €) | +5.000 $ |
+| +0,10 | %1 | %61 | %46 | %75 | 4 / 5 | ~2,2 | +7.300 $ |
+| +0,20 | %1 | %82 | %73 | %89 | 2 / 3 | ~1,4 | +7.800 $ |
+| -0,10 | %2 | %17 | %5,8 | %34 | 39 / 51 | ~17 | -1.800 $ |
+| -0,10 | %0,5 | %3 | %0,3 | %11 | 681 / 885 | ~296 | felaket |
+
+- Avantaj yokken fonlu hesapta +%10 ile -%10 yazı tura: geçenlerin yarısı çeker. Sıfır avantajdaki artı, firmanın bedava tamponundan gelir (§4w).
+- Başa baş yaklaşık -0,05R'de. Sektör ortalamasında (-0,10R) hesap sayısı artırmak zararı büyütür.
+- Negatif avantajda yüksek risk "yardım eder", pozitifte zarar verir: kumar matematiği (§4v). Düşük risk ancak avantaj varsa işe yarar.
+- Süre: %1 riskle çekime ulaşanlarda medyan ~110 işlem günü, %2'de ~30.
+- 200K'da hesap sayıları aynı, ödeme ve ücret 2 kat.
+
 ## 5. "Demo mu, küçük ücretli hesap mı?"
 
 - Röportaj: "Demo yapma, 19$'lık 2.5k hesap al" → psikolojik baskıyı erkenden yaşamak için mantıklı bir argüman **ama** ancak sistemin önce replay/backtest'te R-kaydıyla pozitif EV gösterdiyse. Sırayla: backtest/replay (100+ işlem) → demo/forward test (kuralları canlı hızda uygulayabiliyor musun) → küçük gerçek/prop hesap.
