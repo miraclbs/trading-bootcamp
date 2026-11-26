@@ -1,0 +1,15 @@
+Market Profile 80% rule, 5-minute data (~60 days). counts: opened outside VA / rule triggered / traversed
+  SPY  : outside  48 | triggered  12 | traversed   5 (42%; bootstrap 53%) | unconditional opposite-edge 19%
+  QQQ  : outside  48 | triggered  17 | traversed   4 (24%; bootstrap 49%) | unconditional opposite-edge 17%
+  IWM  : outside  42 | triggered  14 | traversed   4 (29%; bootstrap 43%) | unconditional opposite-edge 21%
+  DIA  : outside  41 | triggered  11 | traversed   5 (45%; bootstrap 49%) | unconditional opposite-edge 17%
+  GLD  : outside  44 | triggered  11 | traversed   5 (45%; bootstrap 51%) | unconditional opposite-edge 18%
+  TLT  : outside  39 | triggered  11 | traversed   4 (36%; bootstrap 45%) | unconditional opposite-edge 18%
+  XLF  : outside  40 | triggered  10 | traversed   5 (50%; bootstrap 57%) | unconditional opposite-edge 30%
+  XLE  : outside  43 | triggered  15 | traversed   8 (53%; bootstrap 49%) | unconditional opposite-edge 33%
+  AAPL : outside  34 | triggered  11 | traversed   5 (45%; bootstrap 48%) | unconditional opposite-edge 18%
+  MSFT : outside  35 | triggered  13 | traversed   5 (38%; bootstrap 48%) | unconditional opposite-edge 20%
+  AMZN : outside  40 | triggered  11 | traversed   4 (36%; bootstrap 46%) | unconditional opposite-edge 12%
+  NVDA : outside  43 | triggered  12 | traversed   5 (42%; bootstrap 53%) | unconditional opposite-edge 14%
+
+POOLED: open outside 497 | triggered 148 (30%) | traversed after trigger 40% (bootstrap 49%) | unconditional opposite edge on open-outside days 20% (bootstrap 25%)

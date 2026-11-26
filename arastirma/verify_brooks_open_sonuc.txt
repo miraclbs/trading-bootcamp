@@ -1,0 +1,8 @@
+SPY: 59 days | P(high or low of day already set) bar 1: 31% | bar 7: 59% | bar 12: 75% | bar 18: 85% | bar 24: 92%
+      18-bar range broken on 52/59 days; opposite extreme held after first break: 43/52 = 83%
+QQQ: 59 days | P(high or low of day already set) bar 1: 34% | bar 7: 75% | bar 12: 86% | bar 18: 88% | bar 24: 92%
+      18-bar range broken on 48/59 days; opposite extreme held after first break: 41/48 = 85%
+IWM: 59 days | P(high or low of day already set) bar 1: 41% | bar 7: 76% | bar 12: 86% | bar 18: 88% | bar 24: 92%
+      18-bar range broken on 51/59 days; opposite extreme held after first break: 44/51 = 86%
+RANDOM WALK | P(high or low of day already set) bar 1: 15% | bar 7: 39% | bar 12: 52% | bar 18: 64% | bar 24: 73%
+RANDOM WALK | 18-bar range broken 99% of days; opposite extreme held after first break 63%

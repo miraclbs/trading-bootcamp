@@ -1,0 +1,57 @@
+Hepsi: {'n': 2735, 'ort': np.float64(-0.057), 'se': np.float64(0.027), 'isabet': np.float64(0.336)} | aynı stop/RR rastgele giriş (banka özeti): -0.029
+     filtre                                           deger    n    ort    se  isabet  2023_once  2023_sonra  aday
+  ust_trend                                        belirsiz   11  0.077 0.458   0.364      0.077         NaN False
+  ust_trend                                            ters 1466 -0.070 0.036   0.333     -0.140      -0.005 False
+  ust_trend                                          uyumlu 1258 -0.043 0.039   0.340     -0.019      -0.066 False
+    supurme                                             var 1057 -0.003 0.043   0.355     -0.134       0.120 False
+    supurme                                             yok 1678 -0.092 0.034   0.325     -0.051      -0.130 False
+  ema_testi                                            evet 1907 -0.021 0.032   0.350     -0.013      -0.028 False
+  ema_testi                                           hayır  828 -0.142 0.047   0.304     -0.243      -0.045 False
+guclu_tetik                                            evet 1586 -0.065 0.035   0.334     -0.059      -0.071 False
+guclu_tetik                                           hayır 1149 -0.046 0.041   0.339     -0.117       0.017 False
+      seans                                            Asya  821 -0.041 0.049   0.335     -0.068      -0.018 False
+      seans                                        Geç saat  356 -0.238 0.070   0.292     -0.367      -0.118 False
+      seans                                          Londra  544 -0.062 0.060   0.331     -0.108      -0.017 False
+      seans                                        New York 1014 -0.005 0.044   0.356      0.014      -0.024 False
+         tf                                              1H 1919 -0.075 0.031   0.333     -0.100      -0.052 False
+         tf                                              4H  816 -0.016 0.049   0.344     -0.045       0.015 False
+     sembol                                          BTCUSD  705 -0.055 0.053   0.339     -0.063      -0.044 False
+     sembol                                          EURUSD  524 -0.062 0.060   0.330     -0.067      -0.057 False
+     sembol                                          GBPUSD  535 -0.101 0.059   0.325     -0.104      -0.099 False
+     sembol                                          USDJPY  544  0.050 0.061   0.369      0.034       0.065 False
+     sembol                                          XAUUSD  427 -0.136 0.066   0.311     -0.356      -0.034 False
+        yon                                              -1 1378 -0.127 0.036   0.311     -0.116      -0.137 False
+        yon                                               1 1357  0.013 0.038   0.363     -0.050       0.075 False
+kombinasyon                                uyumlu + süpürme  493  0.065 0.065   0.373     -0.004       0.138 False
+kombinasyon                    uyumlu + süpürme + EMA testi  318  0.175 0.083   0.406      0.086       0.266  True
+kombinasyon ters + süpürme (kullanıcının altın örneği gibi)  564 -0.062 0.058   0.339     -0.262       0.106 False
+kombinasyon                            uyumlu + güçlü tetik  735 -0.066 0.051   0.332      0.016      -0.146 False
+
+[yon]
+  -1: n=150, ort=+0.124, se=0.119, isabet=0.387
+  1: n=168, ort=+0.220, se=0.116, isabet=0.423
+
+[sembol]
+  BTCUSD: n=98, ort=+0.065, se=0.145, isabet=0.388
+  EURUSD: n=50, ort=+0.262, se=0.211, isabet=0.42
+  GBPUSD: n=65, ort=+0.299, se=0.185, isabet=0.462
+  USDJPY: n=49, ort=+0.315, se=0.212, isabet=0.449
+  XAUUSD: n=56, ort=+0.021, se=0.207, isabet=0.321
+
+[tf]
+  1H: n=209, ort=+0.135, se=0.101, isabet=0.397
+  4H: n=109, ort=+0.251, se=0.147, isabet=0.422
+
+[yil]
+  2017: n=2, ort=+1.984, se=0.006, isabet=1.0
+  2018: n=6, ort=-1.051, se=0.012, isabet=0.0
+  2019: n=12, ort=+0.194, se=0.446, isabet=0.417
+  2020: n=53, ort=+0.265, se=0.205, isabet=0.434
+  2021: n=49, ort=-0.102, se=0.199, isabet=0.306
+  2022: n=40, ort=+0.125, se=0.231, isabet=0.375
+  2023: n=53, ort=+0.388, se=0.202, isabet=0.491
+  2024: n=44, ort=+0.034, se=0.214, isabet=0.364
+  2025: n=28, ort=+0.267, se=0.322, isabet=0.429
+  2026: n=31, ort=+0.388, se=0.281, isabet=0.484
+
+Rastgele 318'lik donus alt kümesi ortalaması ≥ 0.175 olma oranı: 0.0014

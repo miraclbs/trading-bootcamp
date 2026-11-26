@@ -1,0 +1,17 @@
+(A) P(at least k losers in a row within 50 trades), win rate 65% (exact via simulation, 200k runs)
+   k=3: 77.8%
+   k=4: 38.5%
+   k=5: 15.0%
+   k=6: 5.4%
+(B) Hold rate (1 ATR away from the level before 1 ATR through it), by approach speed tercile
+   real   levels | slow (drift): 52.9% (se 1.8%, n=813) | medium: 51.8% (se 1.8%, n=812) | fast: 42.6% (se 1.7%, n=813) | speed cut-offs 1.82/2.87 ATR
+   random levels | slow (drift): 53.6% (se 1.8%, n=728) | medium: 51.5% (se 1.9%, n=728) | fast: 46.2% (se 1.8%, n=728) | speed cut-offs 2.11/3.24 ATR
+   per symbol, real levels: fast minus slow hold rate
+   EURUSD=X : slow 52% | fast 45% | n=364
+   GBPUSD=X : slow 58% | fast 34% | n=378
+   USDJPY=X : slow 52% | fast 37% | n=248
+   AUDUSD=X : slow 54% | fast 47% | n=272
+   GC=F     : slow 57% | fast 49% | n=235
+   CL=F     : slow 47% | fast 57% | n=299
+   ES=F     : slow 54% | fast 39% | n=333
+   NQ=F     : slow 53% | fast 34% | n=309

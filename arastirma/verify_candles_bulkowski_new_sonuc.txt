@@ -1,0 +1,21 @@
+Breakout-direction rate: pattern vs baseline days with the SAME close location in the pattern range.
+
+3-line strike bull (n=29, avg close location 0.89)
+  breaks in predicted direction: 76% | all-days baseline 58% | LOCATION-MATCHED baseline 80% | pattern minus matched -4 pts (se ~8)
+  fwd 10d return in predicted direction, drift-adjusted: -0.221 ATR (se 0.485)
+
+3 black crows (n=977, avg close location 0.15)
+  breaks in predicted direction: 70% | all-days baseline 42% | LOCATION-MATCHED baseline 67% | pattern minus matched +3 pts (se ~1)
+  fwd 10d return in predicted direction, drift-adjusted: +0.038 ATR (se 0.081)
+
+evening star (n=151, avg close location 0.23)
+  breaks in predicted direction: 68% | all-days baseline 42% | LOCATION-MATCHED baseline 62% | pattern minus matched +6 pts (se ~4)
+  fwd 10d return in predicted direction, drift-adjusted: +0.230 ATR (se 0.176)
+
+2 black gapping (n=535, avg close location 0.15)
+  breaks in predicted direction: 65% | all-days baseline 42% | LOCATION-MATCHED baseline 67% | pattern minus matched -1 pts (se ~2)
+  fwd 10d return in predicted direction, drift-adjusted: -0.040 ATR (se 0.115)
+
+abandoned baby bull (n=31, avg close location 0.77)
+  breaks in predicted direction: 68% | all-days baseline 58% | LOCATION-MATCHED baseline 72% | pattern minus matched -4 pts (se ~8)
+  fwd 10d return in predicted direction, drift-adjusted: -0.381 ATR (se 0.465)

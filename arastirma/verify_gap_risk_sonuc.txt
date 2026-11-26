@@ -1,0 +1,51 @@
+PART A: next-open gap THROUGH a stop placed k*ATR14 from the close (daily, 2010+)
+  cells: P(gap through stop) | mean loss in R when it happens | worst 0.5% outcome (R) | worst ever (R)
+  === LARGE CAP ===
+   stop 1 ATR LONG  weekday : n= 40272 | P  1.33% | mean loss  -1.88R | 0.5%  -1.73R | worst   -9.33R
+   stop 1 ATR LONG  weekend : n= 10536 | P  1.87% | mean loss  -1.57R | 0.5%  -1.70R | worst   -4.91R
+   stop 1 ATR SHORT weekday : n= 40272 | P  1.33% | mean loss  -1.91R | 0.5%  -1.71R | worst  -10.30R
+   stop 1 ATR SHORT weekend : n= 10536 | P  1.22% | mean loss  -1.44R | 0.5%  -1.36R | worst   -5.97R
+   stop 2 ATR LONG  weekday : n= 40272 | P  0.40% | mean loss  -1.58R | 0.5%  -0.87R | worst   -4.66R
+   stop 2 ATR LONG  weekend : n= 10536 | P  0.32% | mean loss  -1.37R | 0.5%  -0.85R | worst   -2.46R
+   stop 2 ATR SHORT weekday : n= 40272 | P  0.38% | mean loss  -1.69R | 0.5%  -0.85R | worst   -5.15R
+   stop 2 ATR SHORT weekend : n= 10536 | P  0.12% | mean loss  -1.45R | 0.5%  -0.68R | worst   -2.98R
+  === VOLATILE SMALL/MID ===
+   stop 1 ATR LONG  weekday : n= 28711 | P  1.17% | mean loss  -2.12R | 0.5%  -1.68R | worst  -19.80R
+   stop 1 ATR LONG  weekend : n=  7511 | P  1.36% | mean loss  -2.45R | 0.5%  -1.57R | worst  -49.00R
+   stop 1 ATR SHORT weekday : n= 28711 | P  1.84% | mean loss  -2.23R | 0.5%  -1.82R | worst  -95.82R
+   stop 1 ATR SHORT weekend : n=  7511 | P  2.46% | mean loss  -1.83R | 0.5%  -1.95R | worst   -9.01R
+   stop 2 ATR LONG  weekday : n= 28711 | P  0.38% | mean loss  -1.86R | 0.5%  -0.84R | worst   -9.90R
+   stop 2 ATR LONG  weekend : n=  7511 | P  0.32% | mean loss  -3.04R | 0.5%  -0.79R | worst  -24.50R
+   stop 2 ATR SHORT weekday : n= 28711 | P  0.41% | mean loss  -2.67R | 0.5%  -0.91R | worst  -47.91R
+   stop 2 ATR SHORT weekend : n=  7511 | P  0.45% | mean loss  -2.01R | 0.5%  -0.97R | worst   -4.50R
+  === FUT/FX/INDEX ===
+   stop 1 ATR LONG  weekday : n= 27293 | P  1.96% | mean loss  -1.36R | 0.5%  -1.48R | worst   -3.89R
+   stop 1 ATR LONG  weekend : n=  7024 | P  3.66% | mean loss  -1.39R | 0.5%  -1.77R | worst   -3.95R
+   stop 1 ATR SHORT weekday : n= 27293 | P  2.00% | mean loss  -1.35R | 0.5%  -1.46R | worst   -3.23R
+   stop 1 ATR SHORT weekend : n=  7024 | P  2.80% | mean loss  -1.38R | 0.5%  -1.63R | worst   -3.86R
+   stop 2 ATR LONG  weekday : n= 27293 | P  0.12% | mean loss  -1.22R | 0.5%  -0.74R | worst   -1.95R
+   stop 2 ATR LONG  weekend : n=  7024 | P  0.34% | mean loss  -1.28R | 0.5%  -0.89R | worst   -1.97R
+   stop 2 ATR SHORT weekday : n= 27293 | P  0.12% | mean loss  -1.23R | 0.5%  -0.73R | worst   -1.61R
+   stop 2 ATR SHORT weekend : n=  7024 | P  0.19% | mean loss  -1.35R | 0.5%  -0.82R | worst   -1.93R
+  Prop angle (1% risk per position, stop 1 ATR): probability that ONE position's open gap alone loses
+  more than 3% / 5% of the account (FTMO 1-Step / 2-Step daily limit), per overnight/weekend hold
+   LARGE CAP           : P(gap loss > 3R) 0.140% | P(> 5R) 0.031% | i.e. once every ~716 holds (>3R)
+   VOLATILE SMALL/MID  : P(gap loss > 3R) 0.175% | P(> 5R) 0.076% | i.e. once every ~571 holds (>3R)
+   FUT/FX/INDEX        : P(gap loss > 3R) 0.030% | P(> 5R) 0.000% | i.e. once every ~3,384 holds (>3R)
+PART B: same rule, different bar sizes ('fractal' claim). Excess fwd return in ATR units vs same-side baseline
+  === SPY ===
+   5m (60d)    cost≈0.031 ATR | breakout hold 10: -0.271 ATR (se 0.234, n=284) | capitulation buy hold 5: +0.068 ATR (se 0.216, n=142)
+   1h (730d)   cost≈0.009 ATR | breakout hold 10: -0.031 ATR (se 0.110, n=510) | capitulation buy hold 5: +0.228 ATR (se 0.152, n=157)
+   1d (2005+)  cost≈0.011 ATR | breakout hold 10: -0.048 ATR (se 0.079, n=736) | capitulation buy hold 5: +0.276 ATR (se 0.153, n=162)
+  === QQQ ===
+   5m (60d)    cost≈0.022 ATR | breakout hold 10: +0.012 ATR (se 0.332, n=282) | capitulation buy hold 5: +0.128 ATR (se 0.341, n=121)
+   1h (730d)   cost≈0.007 ATR | breakout hold 10: +0.139 ATR (se 0.119, n=500) | capitulation buy hold 5: +0.028 ATR (se 0.175, n=161)
+   1d (2005+)  cost≈0.016 ATR | breakout hold 10: +0.031 ATR (se 0.080, n=756) | capitulation buy hold 5: +0.186 ATR (se 0.128, n=167)
+  === GLD ===
+   5m (60d)    cost≈0.048 ATR | breakout hold 10: -1.274 ATR (se 0.639, n=209) | capitulation buy hold 5: -0.035 ATR (se 0.145, n=126)
+   1h (730d)   cost≈0.017 ATR | breakout hold 10: -0.075 ATR (se 0.185, n=413) | capitulation buy hold 5: -0.222 ATR (se 0.158, n=162)
+   1d (2005+)  cost≈0.013 ATR | breakout hold 10: +0.134 ATR (se 0.124, n=564) | capitulation buy hold 5: -0.050 ATR (se 0.123, n=199)
+  === EURUSD=X ===
+   5m (60d)    cost≈0.489 ATR | breakout hold 10: -0.093 ATR (se 0.130, n=839) | capitulation buy hold 5: +0.056 ATR (se 0.101, n=570)
+   1h (730d)   cost≈0.095 ATR | breakout hold 10: -0.032 ATR (se 0.105, n=898) | capitulation buy hold 5: +0.016 ATR (se 0.097, n=499)
+   1d (2005+)  cost≈0.011 ATR | breakout hold 10: -0.182 ATR (se 0.136, n=237) | capitulation buy hold 5: +0.185 ATR (se 0.124, n=113)

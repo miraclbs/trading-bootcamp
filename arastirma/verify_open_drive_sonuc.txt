@@ -1,0 +1,29 @@
+Open drive (first 30 min) -> does price later trade beyond the open-drive extreme? real vs bootstrap
+  SPY  : days 59 | open drives  2 | later traded beyond extreme  0 (0%) | bootstrap: drives/day 6%, failure 54%
+  QQQ  : days 59 | open drives  3 | later traded beyond extreme  0 (0%) | bootstrap: drives/day 5%, failure 54%
+  IWM  : days 59 | open drives  1 | later traded beyond extreme  1 (100%) | bootstrap: drives/day 2%, failure 49%
+  DIA  : days 59 | open drives  8 | later traded beyond extreme  3 (38%) | bootstrap: drives/day 11%, failure 37%
+  GLD  : days 59 | open drives  6 | later traded beyond extreme  1 (17%) | bootstrap: drives/day 5%, failure 45%
+  TLT  : days 59 | open drives  2 | later traded beyond extreme  1 (50%) | bootstrap: drives/day 8%, failure 41%
+  XLF  : days 59 | open drives  5 | later traded beyond extreme  2 (40%) | bootstrap: drives/day 7%, failure 37%
+  XLE  : days 59 | open drives  5 | later traded beyond extreme  1 (20%) | bootstrap: drives/day 8%, failure 33%
+  ES=F : days 48 | open drives  3 | later traded beyond extreme  0 (0%) | bootstrap: drives/day 6%, failure 42%
+  NQ=F : days 48 | open drives  3 | later traded beyond extreme  0 (0%) | bootstrap: drives/day 5%, failure 50%
+  ZN=F : days 48 | open drives  1 | later traded beyond extreme  0 (0%) | bootstrap: drives/day 2%, failure 18%
+  GC=F : days 48 | open drives  4 | later traded beyond extreme  1 (25%) | bootstrap: drives/day 9%, failure 40%
+  CL=F : days 48 | open drives  4 | later traded beyond extreme  3 (75%) | bootstrap: drives/day 5%, failure 65%
+
+POOLED: 47 open drives on 712 days (7%; bootstrap 6%) | 'failure' (price trades beyond the open-drive extreme later) 28% (bootstrap 43%)
+
+First-hour version, 1h bars ~2y: open is the high (low) of the first hour and the 10:30 close is >= 0.4% away
+  SPY : days 723 | first-hour drives  17 | later beyond extreme 12% | bootstrap 26%
+  QQQ : days 723 | first-hour drives  47 | later beyond extreme 26% | bootstrap 35%
+  IWM : days 723 | first-hour drives  26 | later beyond extreme 31% | bootstrap 29%
+  DIA : days 723 | first-hour drives  28 | later beyond extreme 32% | bootstrap 21%
+  GLD : days 723 | first-hour drives  29 | later beyond extreme 34% | bootstrap 26%
+  TLT : days 723 | first-hour drives  16 | later beyond extreme 31% | bootstrap 18%
+  XLF : days 723 | first-hour drives  44 | later beyond extreme 32% | bootstrap 28%
+  XLE : days 723 | first-hour drives  51 | later beyond extreme 25% | bootstrap 27%
+  EFA : days 723 | first-hour drives  33 | later beyond extreme 15% | bootstrap 23%
+  EEM : days 723 | first-hour drives  33 | later beyond extreme 18% | bootstrap 33%
+POOLED 1h: 324 drives | 'failure' 26% (bootstrap 27%)

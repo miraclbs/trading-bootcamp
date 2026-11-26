@@ -1,0 +1,26 @@
+
+=== COMMOD FUT (daily 2005+, no costs; exit: close beyond 8-day SMA or stop) ===
+  A full Brandt rules (width<=15%, ADX<15)  : n= 180 | mean +0.626R (se 0.248) | win 35% | top 15% share of gross gains 79%
+  B no ADX filter                           : n= 746 | mean +0.407R (se 0.115) | win 34% | top 15% share of gross gains 82%
+  C no width filter                         : n= 272 | mean +0.454R (se 0.176) | win 36% | top 15% share of gross gains 80%
+  D plain 60-day breakout + 0.5 ATR         : n=1772 | mean +0.295R (se 0.069) | win 33% | top 15% share of gross gains 84%
+  E random entry, same exits                : n=1396 | mean +0.067R (se 0.078) | win 31% | top 15% share of gross gains 87%
+
+=== FX (daily 2005+, no costs; exit: close beyond 8-day SMA or stop) ===
+  A full Brandt rules (width<=15%, ADX<15)  : n= 142 | mean -0.095R (se 0.139) | win 32% | top 15% share of gross gains 84%
+  B no ADX filter                           : n= 884 | mean -0.002R (se 0.071) | win 30% | top 15% share of gross gains 86%
+  C no width filter                         : n= 143 | mean -0.094R (se 0.138) | win 33% | top 15% share of gross gains 84%
+  D plain 60-day breakout + 0.5 ATR         : n= 910 | mean -0.008R (se 0.070) | win 30% | top 15% share of gross gains 86%
+  E random entry, same exits                : n= 786 | mean +0.017R (se 0.066) | win 33% | top 15% share of gross gains 84%
+
+=== INDEX ETF (daily 2005+, no costs; exit: close beyond 8-day SMA or stop) ===
+  A full Brandt rules (width<=15%, ADX<15)  : n= 243 | mean +0.124R (se 0.147) | win 31% | top 15% share of gross gains 76%
+  B no ADX filter                           : n=1033 | mean +0.025R (se 0.075) | win 29% | top 15% share of gross gains 86%
+  C no width filter                         : n= 270 | mean +0.123R (se 0.140) | win 32% | top 15% share of gross gains 75%
+  D plain 60-day breakout + 0.5 ATR         : n=1324 | mean -0.062R (se 0.062) | win 28% | top 15% share of gross gains 86%
+  E random entry, same exits                : n= 869 | mean +0.169R (se 0.086) | win 36% | top 15% share of gross gains 82%
+
+Robustness (COMMOD FUT): roll-gap filtered, 2005-14 vs 2015+
+  full Brandt rules      | 2005-14: +1.270R (se 0.636, n=41) | 2015+: +0.110R (se 0.219, n=89)
+  plain 60-day breakout  | 2005-14: +0.452R (se 0.114, n=657) | 2015+: +0.157R (se 0.089, n=780)
+  random entry           | 2005-14: +0.302R (se 0.150, n=539) | 2015+: +0.067R (se 0.092, n=627)

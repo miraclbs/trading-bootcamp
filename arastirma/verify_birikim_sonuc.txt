@@ -1,0 +1,146 @@
+==============================================================================
+A1. Aylik 300$ (bugunun dolari), reel getiri; nihai deger ve SWR ile aylik gelir
+==============================================================================
+ Yil  Yatirilan |                    %3 reel |                    %5 reel |                    %7 reel |                    %9 reel
+                |    deger / %3,5 / %4 aylik |    deger / %3,5 / %4 aylik |    deger / %3,5 / %4 aylik |    deger / %3,5 / %4 aylik
+  10     36,000 |     41,834 /   122 /   139 |     46,309 /   135 /   154 |     51,316 /   150 /   171 |     56,916 /   166 /   190
+  15     54,000 |     67,872 /   198 /   226 |     79,447 /   232 /   265 |     93,331 /   272 /   311 |    109,992 /   321 /   367
+  20     72,000 |     98,056 /   286 /   327 |    121,741 /   355 /   406 |    152,261 /   444 /   508 |    191,656 /   559 /   639
+  25     90,000 |    133,048 /   388 /   443 |    175,720 /   513 /   586 |    234,913 /   685 /   783 |    317,306 /   925 / 1,058
+  30    108,000 |    173,614 /   506 /   579 |    244,613 /   713 /   815 |    350,836 / 1,023 / 1,169 |    510,634 / 1,489 / 1,702
+
+A1b. Katkinin nihai degerdeki payi (%7 reel): erken donemde kaldirac 'ne kadar yatirdigin'
+  10 yil: katkilar 36,000$, buyume 15,316$ -> katki payi %70
+  15 yil: katkilar 54,000$, buyume 39,331$ -> katki payi %58
+  20 yil: katkilar 72,000$, buyume 80,261$ -> katki payi %47
+  25 yil: katkilar 90,000$, buyume 144,913$ -> katki payi %38
+  30 yil: katkilar 108,000$, buyume 242,836$ -> katki payi %31
+
+==============================================================================
+A2. Katkiyi her yil reel %5 artirmak (300$ ile baslayip)
+==============================================================================
+  Reel getiri %5:
+   10 yil: sabit    46,309$ (gelir %4:   154$/ay) | +%5/yil    57,116$ (gelir %4:   190$/ay), son yil aylik katki 465$, toplam yatirilan 45,280$
+   15 yil: sabit    79,447$ (gelir %4:   265$/ay) | +%5/yil   109,345$ (gelir %4:   364$/ay), son yil aylik katki 594$, toplam yatirilan 77,683$
+   20 yil: sabit   121,741$ (gelir %4:   406$/ay) | +%5/yil   186,073$ (gelir %4:   620$/ay), son yil aylik katki 758$, toplam yatirilan 119,037$
+   25 yil: sabit   175,720$ (gelir %4:   586$/ay) | +%5/yil   296,852$ (gelir %4:   990$/ay), son yil aylik katki 968$, toplam yatirilan 171,818$
+   30 yil: sabit   244,613$ (gelir %4:   815$/ay) | +%5/yil   454,640$ (gelir %4: 1,515$/ay), son yil aylik katki 1,235$, toplam yatirilan 239,180$
+  Reel getiri %7:
+   10 yil: sabit    51,316$ (gelir %4:   171$/ay) | +%5/yil    62,816$ (gelir %4:   209$/ay), son yil aylik katki 465$, toplam yatirilan 45,280$
+   15 yil: sabit    93,331$ (gelir %4:   311$/ay) | +%5/yil   126,298$ (gelir %4:   421$/ay), son yil aylik katki 594$, toplam yatirilan 77,683$
+   20 yil: sabit   152,261$ (gelir %4:   508$/ay) | +%5/yil   225,888$ (gelir %4:   753$/ay), son yil aylik katki 758$, toplam yatirilan 119,037$
+   25 yil: sabit   234,913$ (gelir %4:   783$/ay) | +%5/yil   379,037$ (gelir %4: 1,263$/ay), son yil aylik katki 968$, toplam yatirilan 171,818$
+   30 yil: sabit   350,836$ (gelir %4: 1,169$/ay) | +%5/yil   611,026$ (gelir %4: 2,037$/ay), son yil aylik katki 1,235$, toplam yatirilan 239,180$
+
+A3. Kaldirac karsilastirmasi (10 yil): getiriyi +2 puan artirmak mi, katkiyi artirmak mi?
+  300$/ay %5: 46,309$ | 300$/ay %7: 51,316$ (+%11) | 600$/ay %5: 92,618$ (+%100)
+  30 yilda: 300$/ay %5: 244,613$ | 300$/ay %7: 350,836$ (+%43)
+
+==============================================================================
+B1. Bugunun parasiyla hedef aylik gelir icin gereken aylik yatirim
+==============================================================================
+  Cekim orani %4.0:
+   1000$/ay gelir -> sermaye 300,000$ | 10y@%5: 1,943$, 10y@%7: 1,754$, 15y@%5: 1,133$, 15y@%7: 964$, 20y@%5: 739$, 20y@%7: 591$, 30y@%5: 368$, 30y@%7: 257$
+   2000$/ay gelir -> sermaye 600,000$ | 10y@%5: 3,887$, 10y@%7: 3,508$, 15y@%5: 2,266$, 15y@%7: 1,929$, 20y@%5: 1,479$, 20y@%7: 1,182$, 30y@%5: 736$, 30y@%7: 513$
+  Cekim orani %3.5:
+   1000$/ay gelir -> sermaye 342,857$ | 10y@%5: 2,221$, 10y@%7: 2,004$, 15y@%5: 1,295$, 15y@%7: 1,102$, 20y@%5: 845$, 20y@%7: 676$, 30y@%5: 420$, 30y@%7: 293$
+   2000$/ay gelir -> sermaye 685,714$ | 10y@%5: 4,442$, 10y@%7: 4,009$, 15y@%5: 2,589$, 15y@%7: 2,204$, 20y@%5: 1,690$, 20y@%7: 1,351$, 30y@%5: 841$, 30y@%7: 586$
+
+B2. '10 yilda aylik 300$ ile emekli olmak' testi
+  %5 reel, 10 yil: 46,309$ -> %4 ile 154$/ay
+  %7 reel, 10 yil: 51,316$ -> %4 ile 171$/ay
+  10 yilda 300,000$ (=1000$/ay) icin 300$/ay ile gereken reel getiri: yilda %40
+     300$/ay %5 reel ile bu sermayeye ulasma suresi: 33.3 yil
+     300$/ay %7 reel ile bu sermayeye ulasma suresi: 28.1 yil
+  10 yilda 600,000$ (=2000$/ay) icin 300$/ay ile gereken reel getiri: yilda %54
+     300$/ay %5 reel ile bu sermayeye ulasma suresi: 45.4 yil
+     300$/ay %7 reel ile bu sermayeye ulasma suresi: 37.2 yil
+
+==============================================================================
+C. Tasarruf orani -> finansal bagimsizliga kadar calisma yili (0'dan, %4 cekim)
+==============================================================================
+ Tasarruf |  %3 reel | %5 reel (MMM) |  %7 reel
+       %5 |     91.8 |          65.3 |     51.8
+      %10 |     68.9 |          51.0 |     41.2
+      %15 |     55.8 |          42.5 |     34.9
+      %20 |     46.6 |          36.4 |     30.3
+      %25 |     39.6 |          31.6 |     26.8
+      %30 |     34.0 |          27.7 |     23.7
+      %40 |     25.3 |          21.4 |     18.8
+      %50 |     18.8 |          16.4 |     14.7
+      %60 |     13.6 |          12.2 |     11.2
+      %70 |      9.3 |           8.7 |      8.1
+      %80 |      5.8 |           5.5 |      5.2
+
+==============================================================================
+D. Tarihsel ABD verisi (Shiller): S&P 500 reel toplam getiri (temettu dahil)
+==============================================================================
+  Veri: 1871-02 -> 2023-06 (1829 ay)
+  Tum donem reel yillik: hisse %6.90, 10y tahvil (yaklasik) %2.46
+  1900-2023 reel yillik: hisse %6.60 (DMS 1900-2025 ABD: %6,6)
+
+  D1. Yuvarlanan pencerelerde yillik reel getiri (S&P 500, temettu dahil)
+   10 yil: en kotu %-5.9 (baslangic 1999-03), %5'lik dilim %-2.3, medyan %6.9, en iyi %19.9, negatif pencere orani %11.3
+   20 yil: en kotu %-0.2 (baslangic 1901-06), %5'lik dilim %1.8, medyan %6.7, en iyi %13.6, negatif pencere orani %0.1
+   30 yil: en kotu %1.9 (baslangic 1902-06), %5'lik dilim %4.0, medyan %6.7, en iyi %11.1, negatif pencere orani %0.0
+
+  D2. Reel toplam getiri endeksinde dususler ve 'su alti' sureleri
+   En buyuk reel dusus: %-77 (1932-06)
+   Zirve 2000-08 -> toparlanma 2013-05: 12.7 yil, en dip %-52
+   Zirve 1973-01 -> toparlanma 1985-01: 11.9 yil, en dip %-50
+   Zirve 1937-02 -> toparlanma 1945-04: 8.1 yil, en dip %-48
+   Zirve 1916-11 -> toparlanma 1924-08: 7.7 yil, en dip %-47
+   Ocak 2000'de alan biri reel olarak 2013-03 tarihinde basa bas (temettu dahil)
+
+  D3. Tarihsel aylik 300$ (reel) S&P 500 birikimi: her baslangic ayi icin nihai reel deger
+   10 yil (yatirilan 36,000$): en kotu 22,517$ (1965-01 baslangic), %10 34,550$, medyan 52,258$, %90 74,496$, en iyi 150,723$ (1919-10) | %7 sabit varsayim 51,316$
+        -> medyanin %4 cekimle aylik geliri 174$, en kotunun 75$; yatirilandan az (reel zarar) biten pencere orani %11.5
+   20 yil (yatirilan 72,000$): en kotu 55,418$ (1901-01 baslangic), %10 84,942$, medyan 152,473$, %90 271,797$, en iyi 377,824$ (1979-08) | %7 sabit varsayim 152,261$
+        -> medyanin %4 cekimle aylik geliri 508$, en kotunun 185$; yatirilandan az (reel zarar) biten pencere orani %4.6
+   30 yil (yatirilan 108,000$): en kotu 119,269$ (1891-01 baslangic), %10 190,608$, medyan 327,345$, %90 604,642$, en iyi 769,212$ (1970-01) | %7 sabit varsayim 350,836$
+        -> medyanin %4 cekimle aylik geliri 1,091$, en kotunun 398$; yatirilandan az (reel zarar) biten pencere orani %0.0
+
+  D4. Guvenli cekim orani testi (30 yil, ilk sermayenin %x'i, enflasyona endeksli, aylik cekim)
+   %100 hisse basari: %3.0: %100, %3.5: %100, %4.0: %98, %4.5: %93, %5.0: %83 | tarihsel en kotu durumda guvenli oran ~%3.08
+   %60/40     basari: %3.0: %100, %3.5: %100, %4.0: %97, %4.5: %89, %5.0: %75 | tarihsel en kotu durumda guvenli oran ~%3.73
+   %50/50     basari: %3.0: %100, %3.5: %100, %4.0: %96, %4.5: %86, %5.0: %69 | tarihsel en kotu durumda guvenli oran ~%3.68
+
+  D5. Getiri sirasi riski: AYNI 30 yillik getiriler, duz ve ters sira, %100 hisse
+   1966-01, cekim %4, duz sira (yillik ort. ayni: %4.9): 27.8. yilda bitti
+   1966-01, cekim %4, ters sira (yillik ort. ayni: %4.9): son bakiye ilk sermayenin 2.45 kati
+   1966-01, cekim %5, duz sira (yillik ort. ayni: %4.9): 18.2. yilda bitti
+   1966-01, cekim %5, ters sira (yillik ort. ayni: %4.9): son bakiye ilk sermayenin 2.00 kati
+   1929-01, cekim %4, duz sira (yillik ort. ayni: %6.6): son bakiye ilk sermayenin 0.20 kati
+   1929-01, cekim %4, ters sira (yillik ort. ayni: %6.6): son bakiye ilk sermayenin 4.51 kati
+   1929-01, cekim %5, duz sira (yillik ort. ayni: %6.6): 19.0. yilda bitti
+   1929-01, cekim %5, ters sira (yillik ort. ayni: %6.6): son bakiye ilk sermayenin 3.94 kati
+
+   En derin dusus bolumu: zirve 1929-09, dip 1932-06 (%-77), reel toparlanma 1936-11
+
+==============================================================================
+E. Turkiye: dolar tutmanin TL bazinda reel sonucu (TUFE ile)
+==============================================================================
+  Yil  USD/TRY deg.    TUFE   Dolarin reel getirisi (TL)   100 TL nakdin reel degeri
+ 2016         20.6%    8.5%                        11.1%                       92.1
+ 2017          7.2%   11.9%                        -4.2%                       82.3
+ 2018         40.0%   20.3%                        16.4%                       68.4
+ 2019         12.5%   11.8%                         0.6%                       61.2
+ 2020         24.9%   14.6%                         9.0%                       53.4
+ 2021         79.7%   36.1%                        32.0%                       39.2
+ 2022         40.3%   64.3%                       -14.6%                       23.9
+ 2023         57.4%   64.8%                        -4.4%                       14.5
+ 2024         19.8%   44.4%                       -17.0%                       10.0
+ 2025         21.4%   30.9%                        -7.2%                        7.7
+  2015 sonu -> 2025 sonu: fiyatlar x13.04, dolar x14.68; dolar nakdin reel degisimi %13; yastik alti 100 TL'nin alim gucu 7.7 TL
+  S&P 500 toplam getiri 2016-2025: USD x3.98; TL bazinda x58.5; TUFE'ye gore reel x4.49 (yillik reel %16.2)
+  Yil yil S&P 500'un TL bazinda reel getirisi:
+    2016: %24.4
+    2017: %16.7
+    2018: %11.3
+    2019: %32.2
+    2020: %29.0
+    2021: %69.9
+    2022: %-30.1
+    2023: %20.7
+    2024: %3.8
+    2025: %9.4

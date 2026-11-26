@@ -1,0 +1,13 @@
+# Yalnızca bilgi tabanı yayımlanır; veri, bot araştırması ve kişisel planlar yereldir.
+/*
+!/.gitignore
+!/_config.yml
+!/README.md
+!/bilgi/
+!/kaynaklar/
+!/arastirma/
+
+# arastirma: yalnızca doğrulama scriptleri ve sonuçları
+/arastirma/*
+!/arastirma/verify_*.py
+!/arastirma/verify_*_sonuc.txt

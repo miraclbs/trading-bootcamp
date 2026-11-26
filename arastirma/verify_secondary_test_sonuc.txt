@@ -1,0 +1,5 @@
+Long trades, 2R target / stop below lows / 20-day time exit, R multiples (no costs). 9 ETFs daily 2005+
+ST (no undercut)      : n=  75 avg +0.232R (se 0.170) | win(2R) 40% stop 59% | 2005-14 +0.16 (n=44) | 2015+ +0.34 (n=31)
+spring (undercut)     : n=  45 avg +0.200R (se 0.219) | win(2R) 40% stop 60% | 2005-14 -0.10 (n=20) | 2015+ +0.44 (n=25)
+buy climax close      : n= 329 avg -0.117R (se 0.075) | win(2R) 29% stop 70% | 2005-14 +0.05 (n=162) | 2015+ -0.28 (n=167)
+random decline day    : n=1178 avg +0.114R (se 0.041) | win(2R) 34% stop 60% | 2005-14 +0.11 (n=520) | 2015+ +0.11 (n=658)

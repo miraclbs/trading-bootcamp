@@ -1,0 +1,6 @@
+P(pass) by behaviour and edge (2-Step phase: +10% target, -10% static, -5% daily, RR 2, 2 trades/day)
+   EV/trade | constant 1% | rescue (3% at -6%) | finish (3% when <=2% from target) | both | tilt (2x after 2 losses)
+   -0.10R   |  26.2% |  30.9% |  22.2% |  25.9% |  33.6%
+   +0.00R   |  51.4% |  53.8% |  46.8% |  49.8% |  49.7%
+   +0.10R   |  74.9% |  73.9% |  71.9% |  71.5% |  65.2%
+   +0.20R   |  89.2% |  86.4% |  88.1% |  86.1% |  77.2%

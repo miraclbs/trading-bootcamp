@@ -1,0 +1,6 @@
+EQ+CMD         risk 0.2%: CAGR +2.4% maxDD 7.4% taken 1138 (64/yr) | 2-step: pass 29% fail 1% timeout 70% | median calendar days to pass both 1144
+EQ+CMD         risk 0.5%: CAGR +4.8% maxDD 14.2% taken 1138 (64/yr) | 2-step: pass 93% fail 7% timeout 1% | median calendar days to pass both 750
+EQ+CMD         risk 0.8%: CAGR +6.9% maxDD 20.6% taken 1139 (64/yr) | 2-step: pass 69% fail 31% timeout 0% | median calendar days to pass both 426
+CMD only       risk 0.2%: CAGR +2.6% maxDD 7.9% taken 828 (46/yr) | 2-step: pass 16% fail 2% timeout 82% | median calendar days to pass both 1371
+CMD only       risk 0.5%: CAGR +5.0% maxDD 15.1% taken 828 (46/yr) | 2-step: pass 64% fail 26% timeout 11% | median calendar days to pass both 560
+CMD only       risk 0.8%: CAGR +7.3% maxDD 21.9% taken 828 (46/yr) | 2-step: pass 60% fail 37% timeout 2% | median calendar days to pass both 390

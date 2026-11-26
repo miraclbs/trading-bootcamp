@@ -1,0 +1,10 @@
+DAILY (14 ETFs, 2005+)
+A after 4 bull days in a row: P(bull day) 50.9% (n=5470, se 0.7%) vs baseline 52.4% (n=77098) -> diff -1.5 pts
+B after >=3 of last 4 days doji-ish: P(doji-ish day, |C-O|<0.3 range) 30.6% (n=6707, se 0.6%) vs baseline 30.6% (n=77098) -> diff +0.0 pts
+C big bear day after tight 10d range (vs big bear day any background): P(next day bull) 50.5% (n=1380, se 1.3%) vs baseline 55.2% (n=3825) -> diff -4.7 pts
+
+INTRADAY (1h, ~2 years): rally at the 12:30 bar close >= 0.5 x average daily range above the open
+  SPY: P(test the open later) all strong mid-day moves 4% (n=247) | after trading-range background 5% (n=20)
+  QQQ: P(test the open later) all strong mid-day moves 3% (n=258) | after trading-range background 0% (n=26)
+  IWM: P(test the open later) all strong mid-day moves 4% (n=234) | after trading-range background 0% (n=31)
+  DIA: P(test the open later) all strong mid-day moves 4% (n=241) | after trading-range background 8% (n=26)

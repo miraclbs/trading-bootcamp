@@ -1,0 +1,64 @@
+
+=== A: nobody has skill (-0.05R/trade after costs), 30-day limit ===
+  phase-1 pass 19% | breach 51% | time-out 29%
+  profile            passed    breached
+  trades/day              4.5       5.1
+  risk/trade            2.22%     2.10%
+  planned RR (TP:SL)     1.97      1.80
+  days to end             5.6       5.1
+  realised win rate       65%       21%
+  realised R/trade      +0.87     -0.51
+  passers with planned RR>=2.5: 43%; of those, realised win rate >= 50%: 58%  (a 2.5R trader with no skill wins ~27% of trades)
+  pass rate by risk/trade : 0.25%:0%  0.50%:6%  1.00%:16%  2.00%:26%  3.00%:27%  4.00%:33%
+  pass rate by trades/day : 1:19%  2:19%  3:19%  5:19%  8:21%  10:21%
+  pass rate by planned RR : 0.5:10%  1.0:16%  1.5:18%  2.0:22%  2.5:25%  3.0:25%
+
+=== B: 20% skilled (+0.15R/trade after costs), 30-day limit ===
+  phase-1 pass 25% | breach 46% | time-out 28%
+  profile            passed    breached
+  trades/day              4.6       5.1
+  risk/trade            2.09%     2.13%
+  planned RR (TP:SL)     1.84      1.84
+  days to end             6.2       4.9
+  realised win rate       66%       21%
+  realised R/trade      +0.79     -0.51
+  passers with planned RR>=2.5: 38%; of those, realised win rate >= 50%: 57%  (a 2.5R trader with no skill wins ~27% of trades)
+  pass rate by risk/trade : 0.25%:3%  0.50%:12%  1.00%:24%  2.00%:31%  3.00%:30%  4.00%:39%
+  pass rate by trades/day : 1:22%  2:25%  3:25%  5:26%  8:28%  10:29%
+  pass rate by planned RR : 0.5:21%  1.0:23%  1.5:24%  2.0:27%  2.5:30%  3.0:27%
+  skilled share: population 20% -> among passers 38% -> among breached 12%
+    at risk 0.5%: skilled pass 38% vs unskilled 6%
+    at risk 1.0%: skilled pass 53% vs unskilled 16%
+    at risk 4.0%: skilled pass 54% vs unskilled 36%
+
+=== A: nobody has skill (-0.05R/trade after costs), no time limit (cap 250 trading days) ===
+  phase-1 pass 25% | breach 72% | time-out 3%
+  profile            passed    breached
+  trades/day              4.0       4.5
+  risk/trade            1.96%     1.72%
+  planned RR (TP:SL)     1.92      1.71
+  days to end            19.5      25.6
+  realised win rate       61%       27%
+  realised R/trade      +0.71     -0.40
+  passers with planned RR>=2.5: 40%; of those, realised win rate >= 50%: 47%  (a 2.5R trader with no skill wins ~27% of trades)
+  pass rate by risk/trade : 0.25%:7%  0.50%:19%  1.00%:24%  2.00%:29%  3.00%:26%  4.00%:34%
+  pass rate by trades/day : 1:31%  2:28%  3:25%  5:22%  8:22%  10:22%
+  pass rate by planned RR : 0.5:14%  1.0:23%  1.5:25%  2.0:28%  2.5:31%  3.0:29%
+
+=== B: 20% skilled (+0.15R/trade after costs), no time limit (cap 250 trading days) ===
+  phase-1 pass 34% | breach 63% | time-out 3%
+  profile            passed    breached
+  trades/day              4.1       4.6
+  risk/trade            1.76%     1.78%
+  planned RR (TP:SL)     1.80      1.74
+  days to end            21.0      23.7
+  realised win rate       61%       26%
+  realised R/trade      +0.63     -0.42
+  passers with planned RR>=2.5: 35%; of those, realised win rate >= 50%: 44%  (a 2.5R trader with no skill wins ~27% of trades)
+  pass rate by risk/trade : 0.25%:23%  0.50%:34%  1.00%:36%  2.00%:34%  3.00%:31%  4.00%:38%
+  pass rate by trades/day : 1:39%  2:37%  3:34%  5:31%  8:32%  10:31%
+  pass rate by planned RR : 0.5:30%  1.0:33%  1.5:35%  2.0:35%  2.5:36%  3.0:36%
+  skilled share: population 20% -> among passers 40% -> among breached 10%
+    at risk 0.5%: skilled pass 93% vs unskilled 19%
+    at risk 1.0%: skilled pass 76% vs unskilled 26%
+    at risk 4.0%: skilled pass 51% vs unskilled 35%

@@ -1,0 +1,17 @@
+trades: pullback 1400, random baseline 1400; 2005-01-03 .. 2026-10-14
+=== pullback ===  avg net R/trade +0.184
+  [diag r=0.5%] taken 760 skipped 640 | avg R taken +0.114 | no-cap: CAGR +5.4% maxDD 32.9%
+  risk 0.5%: CAGR +1.8% maxDD 14.1% | challenge (n=241 starts): pass 23% fail 2% timeout(1y) 76% | median trading days to pass 139
+  [diag r=1.0%] taken 760 skipped 640 | avg R taken +0.114 | no-cap: CAGR +9.7% maxDD 56.7%
+  risk 1.0%: CAGR +3.3% maxDD 26.7% | challenge (n=241 starts): pass 48% fail 25% timeout(1y) 27% | median trading days to pass 80
+  [diag r=2.0%] taken 759 skipped 641 | avg R taken +0.111 | no-cap: CAGR +14.3% maxDD 84.3%
+  risk 2.0%: CAGR +4.9% maxDD 52.2% | challenge (n=241 starts): pass 52% fail 46% timeout(1y) 2% | median trading days to pass 31
+=== random ===  avg net R/trade +0.119
+  [diag r=0.5%] taken 978 skipped 422 | avg R taken +0.110 | no-cap: CAGR +3.4% maxDD 32.5%
+  risk 0.5%: CAGR +2.3% maxDD 21.7% | challenge (n=241 starts): pass 21% fail 5% timeout(1y) 73% | median trading days to pass 121
+  [diag r=1.0%] taken 978 skipped 422 | avg R taken +0.110 | no-cap: CAGR +6.0% maxDD 57.3%
+  risk 1.0%: CAGR +4.1% maxDD 39.3% | challenge (n=241 starts): pass 56% fail 24% timeout(1y) 20% | median trading days to pass 70
+  [diag r=2.0%] taken 978 skipped 422 | avg R taken +0.110 | no-cap: CAGR +8.4% maxDD 85.9%
+  risk 2.0%: CAGR +6.5% maxDD 64.5% | challenge (n=241 starts): pass 44% fail 56% timeout(1y) 0% | median trading days to pass 19
+SPY buy&hold 2005-01-03..2026-11-20: CAGR +10.3% maxDD 55.2%
+EFA buy&hold 2005-01-03..2026-11-20: CAGR +5.7% maxDD 61.0%

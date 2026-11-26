@@ -1,0 +1,19 @@
+Donchian 20-day stop-and-reverse, daily 2005+, no costs. P&L in ATR units per symbol-year (pooled)
+
+STOCKS (30 symbols, 165210 symbol-days)
+  long/short SAR      : all  +0.34 ATR/yr  Sharpe +0.03 | 2005-14  +0.20 ATR/yr  Sharpe +0.02 | 2015+  +0.45 ATR/yr  Sharpe +0.04
+  long-only (flat)    : all  +3.39 ATR/yr  Sharpe +0.38 | 2005-14  +3.44 ATR/yr  Sharpe +0.40 | 2015+  +3.34 ATR/yr  Sharpe +0.36
+  buy & hold (ref)    : all  +6.44 ATR/yr  Sharpe +0.55 | 2005-14  +6.68 ATR/yr  Sharpe +0.59 | 2015+  +6.24 ATR/yr  Sharpe +0.51
+  event: fwd 20d after first breakout in new direction, drift-adjusted, signed: n=3961 mean -0.008 ATR (se 0.056)
+
+COMMOD (13 symbols, 59363 symbol-days)
+  long/short SAR      : all  +1.04 ATR/yr  Sharpe +0.08 | 2005-14  +2.59 ATR/yr  Sharpe +0.19 | 2015+  +0.22 ATR/yr  Sharpe +0.02
+  long-only (flat)    : all  +1.04 ATR/yr  Sharpe +0.11 | 2005-14  +0.30 ATR/yr  Sharpe +0.03 | 2015+  +1.43 ATR/yr  Sharpe +0.15
+  buy & hold (ref)    : all  +1.06 ATR/yr  Sharpe +0.08 | 2005-14  -1.92 ATR/yr  Sharpe -0.14 | 2015+  +2.63 ATR/yr  Sharpe +0.20
+  event: fwd 20d after first breakout in new direction, drift-adjusted, signed: n=1493 mean -0.041 ATR (se 0.104)
+
+FX (7 symbols, 39420 symbol-days)
+  long/short SAR      : all  -0.58 ATR/yr  Sharpe -0.06 | 2005-14  -0.19 ATR/yr  Sharpe -0.02 | 2015+  -0.90 ATR/yr  Sharpe -0.10
+  long-only (flat)    : all  -0.25 ATR/yr  Sharpe -0.03 | 2005-14  +0.14 ATR/yr  Sharpe +0.02 | 2015+  -0.57 ATR/yr  Sharpe -0.09
+  buy & hold (ref)    : all  +0.08 ATR/yr  Sharpe +0.01 | 2005-14  +0.48 ATR/yr  Sharpe +0.04 | 2015+  -0.24 ATR/yr  Sharpe -0.03
+  event: fwd 20d after first breakout in new direction, drift-adjusted, signed: n=712 mean -0.038 ATR (se 0.119)

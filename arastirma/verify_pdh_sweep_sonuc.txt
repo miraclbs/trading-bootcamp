@@ -1,0 +1,28 @@
+
+===== 1h bars, 730d =====
+SPY target 1R: N=414 (days 730) | win 136 loss 137 eod 141 | WR(decided) 50% vs random 50% | avg R/trade -0.03
+SPY target 2R: N=414 (days 730) | win 60 loss 148 eod 206 | WR(decided) 29% vs random 33% | avg R/trade +0.01
+QQQ target 1R: N=422 (days 730) | win 103 loss 135 eod 184 | WR(decided) 43% vs random 50% | avg R/trade -0.11
+QQQ target 2R: N=422 (days 730) | win 41 loss 150 eod 231 | WR(decided) 21% vs random 33% | avg R/trade -0.13
+IWM target 1R: N=428 (days 730) | win 97 loss 125 eod 206 | WR(decided) 44% vs random 50% | avg R/trade -0.07
+IWM target 2R: N=428 (days 730) | win 35 loss 134 eod 259 | WR(decided) 21% vs random 33% | avg R/trade -0.05
+
+===== 5m bars, 60d =====
+SPY target 1R: N=35 (days 60) | win 12 loss 16 eod 7 | WR(decided) 43% vs random 50% | avg R/trade -0.12
+SPY target 2R: N=35 (days 60) | win 7 loss 19 eod 9 | WR(decided) 27% vs random 33% | avg R/trade -0.15
+QQQ target 1R: N=32 (days 60) | win 8 loss 17 eod 7 | WR(decided) 32% vs random 50% | avg R/trade -0.29
+QQQ target 2R: N=32 (days 60) | win 4 loss 21 eod 7 | WR(decided) 16% vs random 33% | avg R/trade -0.42
+IWM target 1R: N=38 (days 60) | win 8 loss 21 eod 9 | WR(decided) 28% vs random 50% | avg R/trade -0.34
+IWM target 2R: N=38 (days 60) | win 3 loss 25 eod 10 | WR(decided) 11% vs random 33% | avg R/trade -0.47
+SPY 1st entry short 2R target: N=232 | win 42 loss 82 | avg R +0.07
+SPY 1st entry long  2R target: N=182 | win 18 loss 66 | avg R -0.06
+SPY 2nd entry short 2R target: N=108 | win 14 loss 32 | avg R +0.02
+SPY 2nd entry long  2R target: N= 89 | win 8 loss 28 | avg R -0.09
+QQQ 1st entry short 2R target: N=240 | win 25 loss 95 | avg R -0.19
+QQQ 1st entry long  2R target: N=182 | win 16 loss 55 | avg R -0.04
+QQQ 2nd entry short 2R target: N=102 | win 13 loss 27 | avg R +0.03
+QQQ 2nd entry long  2R target: N= 79 | win 5 loss 15 | avg R +0.01
+IWM 1st entry short 2R target: N=221 | win 18 loss 63 | avg R -0.05
+IWM 1st entry long  2R target: N=207 | win 17 loss 71 | avg R -0.06
+IWM 2nd entry short 2R target: N= 83 | win 6 loss 19 | avg R -0.00
+IWM 2nd entry long  2R target: N= 91 | win 7 loss 19 | avg R -0.00

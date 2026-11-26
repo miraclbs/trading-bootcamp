@@ -1,0 +1,6 @@
+12-month TSMOM, 2005+, each scaled to 10% vol
+  A) SPY alone                      : Sharpe +0.56 (2015+ +0.44) | maxDD at 10% vol 25% | corr with SPY +0.50
+  B) 4 index ETFs                   : Sharpe +0.54 (2015+ +0.40) | maxDD at 10% vol 23% | corr with SPY +0.45
+  C) 30 large caps long/short       : Sharpe +0.45 (2015+ +0.31) | maxDD at 10% vol 25% | corr with SPY +0.35
+  D) 30 large caps long-only        : Sharpe +0.77 (2015+ +0.67) | maxDD at 10% vol 21% | corr with SPY +0.74
+     SPY buy & hold (reference)     : Sharpe +0.61 (2015+ +0.76) | maxDD at 10% vol 33% | corr with SPY +1.00

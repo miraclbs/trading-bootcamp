@@ -1,0 +1,30 @@
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_playbook_split.py:41: RuntimeWarning: divide by zero encountered in scalar divide
+  caut = {c for c in N if q1[c].mean() < 0 and q1[c].mean() / (q1[c].std(ddof=1) / np.sqrt(N[c])) < -1.0}
+Quarters 2-4 total R (mean over 5000 sims) by policy, plus how often a category was dropped after Q1
+
+  World 1 real problem (A +0.30, rest -0.15)
+    Q1 shows 'playbook A profitable, everything else losing': 68% of quarters
+    keep all                  : mean   +8.8R | 5th pct  -30.0R
+    naive (drop if Q1 sum<0)  : mean  +23.1R | 5th pct  -15.0R
+    cautious (drop if t<-1)   : mean  +16.1R | 5th pct  -24.0R
+    oracle                    : mean  +36.3R | 5th pct   +9.0R
+    naive    drop rate: A 11% B 65% C 67% D 68%
+    cautious drop rate: A 1% B 28% C 29% D 30%
+
+  World 2 no difference (all +0.05)
+    Q1 shows 'playbook A profitable, everything else losing': 20% of quarters
+    keep all                  : mean  +14.2R | 5th pct  -27.0R
+    naive (drop if Q1 sum<0)  : mean   +8.7R | 5th pct  -21.0R
+    cautious (drop if t<-1)   : mean  +12.6R | 5th pct  -24.0R
+    oracle                    : mean  +14.2R | 5th pct  -27.0R
+    naive    drop rate: A 42% B 40% C 42% D 41%
+    cautious drop rate: A 11% B 11% C 11% D 12%
+
+  World 3 mixed (A +0.30, B +0.20, C/D -0.15)
+    Q1 shows 'playbook A profitable, everything else losing': 48% of quarters
+    keep all                  : mean  +30.2R | 5th pct   -9.0R
+    naive (drop if Q1 sum<0)  : mean  +35.5R | 5th pct   -6.0R
+    cautious (drop if t<-1)   : mean  +34.3R | 5th pct   -6.0R
+    oracle                    : mean  +48.1R | 5th pct  +15.0R
+    naive    drop rate: A 10% B 26% C 66% D 68%
+    cautious drop rate: A 1% B 5% C 28% D 31%

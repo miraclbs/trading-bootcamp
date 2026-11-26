@@ -1,0 +1,6 @@
+SPY: net +1.77bp/day (sd 21.7bp, cost 0.33bp) Sharpe +1.30 | 1st half +2.19bp (Sharpe +1.33) | 2nd half +1.35bp (Sharpe +1.35) | |move|>0.5%: +2.57bp n=355 | R/yr (1R=1sd) +20.6
+QQQ: net +1.73bp/day (sd 27.0bp, cost 0.37bp) Sharpe +1.02 | 1st half +3.48bp (Sharpe +1.76) | 2nd half -0.02bp (Sharpe -0.01) | |move|>0.5%: +2.48bp n=437 | R/yr (1R=1sd) +16.1
+IWM: net +1.58bp/day (sd 24.3bp, cost 0.86bp) Sharpe +1.03 | 1st half +2.69bp (Sharpe +1.55) | 2nd half +0.48bp (Sharpe +0.37) | |move|>0.5%: +1.49bp n=488 | R/yr (1R=1sd) +16.4
+DIA: net +0.50bp/day (sd 18.2bp, cost 0.45bp) Sharpe +0.43 | 1st half +0.58bp (Sharpe +0.41) | 2nd half +0.42bp (Sharpe +0.50) | |move|>0.5%: +1.21bp n=353 | R/yr (1R=1sd) +6.9
+XLK: net +0.85bp/day (sd 33.2bp, cost 1.58bp) Sharpe +0.41 | 1st half +2.14bp (Sharpe +0.93) | 2nd half -0.43bp (Sharpe -0.23) | |move|>0.5%: +0.10bp n=477 | R/yr (1R=1sd) +6.5
+SMH: net +2.44bp/day (sd 46.9bp, cost 0.68bp) Sharpe +0.82 | 1st half +2.35bp (Sharpe +0.76) | 2nd half +2.53bp (Sharpe +0.91) | |move|>0.5%: +2.17bp n=568 | R/yr (1R=1sd) +13.1

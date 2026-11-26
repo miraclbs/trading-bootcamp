@@ -1,0 +1,31 @@
+(1) 12-month TSMOM, 19 markets, 2005+. Variants differ ONLY in how size is managed after the signal.
+    ann.ret / vol / Sharpe / maxDD | worst day (in own daily std) | days < -4 std per 10k | kurtosis
+  A monthly vol-scaled            : +2.2% / 3.9% / +0.56 / 8% | -6.1 | 21 | 3.5
+  B daily vol-scaled              : +1.7% / 3.5% / +0.49 / 8% | -5.8 | 21 | 2.2
+  C fixed shares, vol at entry    : +2.4% / 5.3% / +0.45 / 11% | -11.3 | 37 | 6.8
+  D fixed shares, equal notional  : +3.4% / 8.8% / +0.39 / 23% | -16.5 | 42 | 18.0
+
+    Same at equal realised vol (each path scaled to 10% annual): maxDD and worst day
+  A monthly vol-scaled            : maxDD 20% | worst day -3.83% | worst 5d -8.6% | realised 1m vol 95th pct 16%
+  B daily vol-scaled              : maxDD 21% | worst day -3.65% | worst 5d -7.6% | realised 1m vol 95th pct 15%
+  C fixed shares, vol at entry    : maxDD 20% | worst day -7.11% | worst 5d -9.3% | realised 1m vol 95th pct 18%
+  D fixed shares, equal notional  : maxDD 26% | worst day -10.37% | worst 5d -12.1% | realised 1m vol 95th pct 18%
+
+    FTMO-like 2-step at 8% annual vol (pass / fail):
+  A monthly vol-scaled            : pass 73% fail 23%
+  B daily vol-scaled              : pass 67% fail 32%
+  C fixed shares, vol at entry    : pass 66% fail 15%
+  D fixed shares, equal notional  : pass 57% fail 13%
+
+    Silver episode (SLV), Jan-Feb 2026: SLV daily moves and each variant's SLV P&L (bp of capital)
+  largest SLV days: 2026-01-30 -25.0%, 2026-02-05 -15.8%, 2026-02-12 -11.5%, 2026-02-09 +8.3%, 2026-02-20 +7.9%
+  A monthly vol-scaled            : SLV weight on 2026-01-02 +0.01, on worst day-1 +0.01 | Jan P&L +28 bp, worst day -27 bp, Jan peak-to-end 27 bp
+  B daily vol-scaled              : SLV weight on 2026-01-02 +0.01, on worst day-1 +0.01 | Jan P&L +17 bp, worst day -23 bp, Jan peak-to-end 23 bp
+  C fixed shares, vol at entry    : SLV weight on 2026-01-02 +0.05, on worst day-1 +0.08 | Jan P&L +118 bp, worst day -211 bp, Jan peak-to-end 211 bp
+  D fixed shares, equal notional  : SLV weight on 2026-01-02 +0.14, on worst day-1 +0.23 | Jan P&L +323 bp, worst day -578 bp, Jan peak-to-end 578 bp
+
+(2) Predictability, per asset, averaged (R^2 of next month on last month):
+  monthly volatility : mean R^2 0.35 (log vol 0.41); range 0.04-0.54
+  monthly return     : mean R^2 0.008
+  monthly pairwise correlation: mean R^2 0.12 over 171 pairs
+  half-year pairwise correlation: mean R^2 0.23

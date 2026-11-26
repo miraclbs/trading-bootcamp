@@ -1,0 +1,35 @@
+(1)+(2) 250 trades (~1 year), RR 2, compounding risk f of equity. Success = 25x before falling to 10%
+   EV/trade |  risk f | P(25x)  | P(ruin <10%) | median final | P(final < start)
+   +0.00R   |     1% |  0.00% |        0.0% |       0.97x |  56.7%
+   +0.00R   |     3% |  0.00% |        0.1% |       0.78x |  61.8%
+   +0.00R   |     5% |  0.10% |        9.3% |       0.52x |  71.4%
+   +0.00R   |    10% |  1.73% |       66.7% |       0.09x |  86.8%
+   +0.00R   |    20% |  3.10% |       96.2% |       0.00x |  98.4%
+   +0.00R   |    33% |  2.92% |       97.1% |       0.00x | 100.0%
+
+   +0.10R   |     1% |  0.00% |        0.0% |       1.26x |  17.2%
+   +0.10R   |     3% |  0.01% |        0.0% |       1.73x |  20.5%
+   +0.10R   |     5% |  1.57% |        0.8% |       1.94x |  29.5%
+   +0.10R   |    10% | 14.13% |       27.6% |       1.13x |  49.3%
+   +0.10R   |    20% | 13.61% |       82.1% |       0.01x |  84.7%
+   +0.10R   |    33% |  8.14% |       91.9% |       0.00x |  99.4%
+
+   +0.20R   |     1% |  0.00% |        0.0% |       1.60x |   2.4%
+   +0.20R   |     3% |  0.30% |        0.0% |       3.52x |   3.1%
+   +0.20R   |     5% | 14.67% |        0.0% |       6.28x |   5.2%
+   +0.20R   |    10% | 47.13% |        6.4% |      11.34x |  14.0%
+   +0.20R   |    20% | 38.59% |       53.8% |       1.19x |  47.7%
+   +0.20R   |    33% | 19.45% |       80.5% |       0.00x |  90.9%
+
+   Zero-edge attempters needed per visible 25x 'success' at 20% risk: ~31; at 33% risk: ~36
+
+(3) The same risk per trade inside a prop account (FTMO 2-Step style: target +10%, -5% daily, -10% total,
+    2 trades/day, fixed risk of initial balance). P(pass) / P(breach), 2,000 trading days cap
+   EV +0.00R, risk   1%: pass 49.0% | breach 51.0%
+   EV +0.00R, risk   5%: pass 33.2% | breach 66.8%
+   EV +0.00R, risk  10%: pass 33.3% | breach 66.7%
+   EV +0.00R, risk  20%: pass 33.4% | breach 66.6%
+   EV +0.20R, risk   1%: pass 87.2% | breach 12.8%
+   EV +0.20R, risk   5%: pass 39.6% | breach 60.4%
+   EV +0.20R, risk  10%: pass 39.5% | breach 60.5%
+   EV +0.20R, risk  20%: pass 39.6% | breach 60.4%

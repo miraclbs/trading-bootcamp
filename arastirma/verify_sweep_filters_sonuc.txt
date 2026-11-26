@@ -1,0 +1,27 @@
+SPY: 400 signals
+QQQ: 408 signals
+IWM: 412 signals
+
+=== ALL (3 ETFs pooled), 2R target, no costs. Random-walk expectation = 0 ===
+  all                                    N=1220 avg R -0.046 | 1st half -0.04 (n=593) | 2nd half -0.06 (n=627)
+-- by regime
+  regime=against                         N= 655 avg R -0.056 | 1st half -0.02 (n=313) | 2nd half -0.09 (n=342)
+  regime=with                            N= 565 avg R -0.034 | 1st half -0.05 (n=280) | 2nd half -0.02 (n=285)
+-- by bar
+  bar=strong                             N= 484 avg R +0.020 | 1st half +0.04 (n=234) | 2nd half -0.00 (n=250)
+  bar=weak                               N= 736 avg R -0.089 | 1st half -0.09 (n=359) | 2nd half -0.09 (n=377)
+-- by depth
+  depth=deep                             N= 815 avg R +0.002 | 1st half +0.05 (n=396) | 2nd half -0.04 (n=419)
+  depth=shallow                          N= 405 avg R -0.142 | 1st half -0.20 (n=197) | 2nd half -0.09 (n=208)
+-- by time
+  time=first_hour                        N= 792 avg R -0.033 | 1st half -0.01 (n=398) | 2nd half -0.06 (n=394)
+  time=later                             N= 428 avg R -0.069 | 1st half -0.09 (n=195) | 2nd half -0.05 (n=233)
+-- combinations
+  regime=with & bar=strong               N= 195 avg R +0.009 | 1st half +0.01 (n=94) | 2nd half +0.01 (n=101)
+  regime=with & bar=weak                 N= 370 avg R -0.057 | 1st half -0.08 (n=186) | 2nd half -0.03 (n=184)
+  regime=against & bar=strong            N= 289 avg R +0.027 | 1st half +0.07 (n=140) | 2nd half -0.01 (n=149)
+  regime=against & bar=weak              N= 366 avg R -0.121 | 1st half -0.09 (n=173) | 2nd half -0.15 (n=193)
+  regime=with & depth=deep               N= 366 avg R +0.009 | 1st half +0.04 (n=172) | 2nd half -0.01 (n=194)
+  regime=with & depth=shallow            N= 199 avg R -0.115 | 1st half -0.19 (n=108) | 2nd half -0.02 (n=91)
+  regime=against & depth=deep            N= 449 avg R -0.004 | 1st half +0.06 (n=224) | 2nd half -0.06 (n=225)
+  regime=against & depth=shallow         N= 206 avg R -0.168 | 1st half -0.21 (n=89) | 2nd half -0.14 (n=117)

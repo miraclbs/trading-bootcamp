@@ -1,0 +1,10 @@
+== (A) Wilksey WR30 RR3, +10% / -10% ==
+risk 1% (10R/10R): pass 77.7% | trades-to-pass mean 30.0, median 22
+risk 2% (5R/5R) : pass 63.5% | trades-to-pass mean 8.4, median 6
+theory expected trades (drift only) at 1%: 10/0.2 = 50
+
+== (B) Kimmel normal: FTMO 10% DD, 5 trades/week -> risk 1% (10R room), target 10R ==
+WR30% RR3.0 (EV +0.20R): pass 77.6% | trades-to-pass mean 30.2, median 22
+WR40% RR2.0 (EV +0.20R): pass 87.3% | trades-to-pass mean 38.6, median 29
+WR50% RR1.5 (EV +0.25R): pass 96.6% | trades-to-pass mean 38.6, median 30
+WR55% RR1.2 (EV +0.21R): pass 97.5% | trades-to-pass mean 47.7, median 38

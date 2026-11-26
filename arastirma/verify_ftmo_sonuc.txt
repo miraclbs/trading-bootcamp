@@ -1,0 +1,25 @@
+== P(peak-to-trough DD >= 50% within 500 trades), WR40 RR2 ==
+risk 1%: 0.000
+risk 2%: 0.022
+risk 5%: 0.851
+risk 10%: 1.000
+
+== Prop challenge (+10% target, -10% max, -5% daily, 2 trades/day, 60 days) ==
+edge +0.20R        WR40% RR2.0 risk 0.5%: pass 71.7% | maxloss 1.4% | daily 0.0% | timeout 27.0%
+edge +0.20R        WR40% RR2.0 risk 1.0%: pass 85.7% | maxloss 11.9% | daily 0.0% | timeout 2.5%
+edge +0.20R        WR40% RR2.0 risk 2.0%: pass 72.0% | maxloss 28.0% | daily 0.0% | timeout 0.0%
+edge +0.20R        WR40% RR2.0 risk 3.0%: pass 36.2% | maxloss 0.0% | daily 63.8% | timeout 0.0%
+edge +0.05R        WR35% RR2.0 risk 0.5%: pass 30.5% | maxloss 11.1% | daily 0.0% | timeout 58.4%
+edge +0.05R        WR35% RR2.0 risk 1.0%: pass 57.5% | maxloss 36.0% | daily 0.0% | timeout 6.6%
+edge +0.05R        WR35% RR2.0 risk 2.0%: pass 54.8% | maxloss 45.2% | daily 0.0% | timeout 0.0%
+edge +0.05R        WR35% RR2.0 risk 3.0%: pass 27.5% | maxloss 0.0% | daily 72.5% | timeout 0.0%
+~breakeven -0.01R  WR33% RR2.0 risk 0.5%: pass 17.4% | maxloss 21.0% | daily 0.0% | timeout 61.6%
+~breakeven -0.01R  WR33% RR2.0 risk 1.0%: pass 43.5% | maxloss 49.4% | daily 0.0% | timeout 7.1%
+~breakeven -0.01R  WR33% RR2.0 risk 2.0%: pass 47.2% | maxloss 52.8% | daily 0.0% | timeout 0.0%
+~breakeven -0.01R  WR33% RR2.0 risk 3.0%: pass 24.1% | maxloss 0.0% | daily 75.9% | timeout 0.0%
+edge +0.10R        WR55% RR1.0 risk 0.5%: pass 33.8% | maxloss 0.7% | daily 0.0% | timeout 65.5%
+edge +0.10R        WR55% RR1.0 risk 1.0%: pass 73.3% | maxloss 10.0% | daily 0.0% | timeout 16.7%
+edge +0.10R        WR55% RR1.0 risk 2.0%: pass 72.4% | maxloss 27.4% | daily 0.0% | timeout 0.2%
+edge +0.10R        WR55% RR1.0 risk 3.0%: pass 35.9% | maxloss 0.0% | daily 64.1% | timeout 0.0%
+
+[exited with code 0]

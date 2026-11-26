@@ -1,0 +1,11 @@
+2009+ (2009-05-18..2026-11-05). SPY buy&hold CAGR +14.3%
+
+=== rsi2 === n=1173 avg net +0.109R (se 0.022) win 68%
+  risk 0.5%/trade (1R=2ATR): CAGR +1.5% maxDD 7.3% taken 738 skipped 435 | 2-step challenge (n=185): pass 0% fail 0% timeout 100%
+  risk 1.0%/trade (1R=2ATR): CAGR +2.9% maxDD 14.4% taken 738 skipped 435 | 2-step challenge (n=185): pass 11% fail 21% timeout 68%
+  risk 2.0%/trade (1R=2ATR): CAGR +5.3% maxDD 28.0% taken 738 skipped 435 | 2-step challenge (n=185): pass 36% fail 54% timeout 10%
+
+=== random === n=1173 avg net +0.035R (se 0.015) win 64%
+  risk 0.5%/trade (1R=2ATR): CAGR +0.9% maxDD 5.3% taken 1091 skipped 82 | 2-step challenge (n=185): pass 0% fail 0% timeout 100%
+  risk 1.0%/trade (1R=2ATR): CAGR +1.8% maxDD 10.4% taken 1091 skipped 82 | 2-step challenge (n=185): pass 4% fail 2% timeout 94%
+  risk 2.0%/trade (1R=2ATR): CAGR +3.4% maxDD 20.1% taken 1091 skipped 82 | 2-step challenge (n=185): pass 22% fail 23% timeout 55%

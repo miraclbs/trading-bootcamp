@@ -1,0 +1,28 @@
+Zero-edge 1:1, $300 risk, 2 trades/day, target +3000, max loss 2000
+  static, no cost         : pass 41.6% (median trades 53)
+  EOD trailing, no cost   : pass 29.1% (median trades 39)
+  EOD trailing + 3% cost  : pass 20.3% (median trades 38)
+
+Geometry sweep (zero edge, $300 risk, EOD trailing): pass without cost / with 3% cost
+  target 0.25R (win rate 80%): 26.5% /  4.8%  (median trades with cost 103)
+  target 0.33R (win rate 75%): 27.0% /  8.2%  (median trades with cost 86)
+  target 0.50R (win rate 67%): 28.0% / 13.2%  (median trades with cost 64)
+  target 0.75R (win rate 57%): 27.7% / 17.6%  (median trades with cost 46)
+  target 1.00R (win rate 50%): 29.0% / 20.3%  (median trades with cost 38)
+  target 1.50R (win rate 40%): 29.0% / 22.7%  (median trades with cost 26)
+  target 2.00R (win rate 33%): 29.1% / 24.4%  (median trades with cost 21)
+  target 3.00R (win rate 25%): 29.6% / 26.4%  (median trades with cost 15)
+  target 4.00R (win rate 20%): 29.5% / 26.8%  (median trades with cost 12)
+
+Risk size ('a seventh of the drawdown' = ~$285): EOD trailing + 3% cost, 1:1
+  risk $100: pass 7.8%, median trades 239
+  risk $200: pass 16.1%, median trades 75
+  risk $285: pass 19.6%, median trades 41
+  risk $400: pass 22.7%, median trades 23
+  risk $600: pass 27.5%, median trades 14
+
+With a small real edge (+3 win-rate points at 1:1 = +0.06R gross), EOD trailing + 3% cost, $285 risk
+  gross edge +0.00R: pass 20.1%, median trades 41
+  gross edge +0.06R: pass 38.2%, median trades 46
+  gross edge +0.10R: pass 52.6%, median trades 46
+  gross edge +0.20R: pass 81.6%, median trades 42

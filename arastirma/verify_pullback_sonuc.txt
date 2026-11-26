@@ -1,0 +1,36 @@
+Signed, drift-adjusted forward return in ATR units (positive = favours trade direction). Daily 2005+, no costs
+
+INDEX
+  pullback             n= 1122 | +5d +0.218 (se 0.058) | +10d +0.257 (se 0.079) | +20d +0.096 (se 0.109)
+  trend-state day      n= 8612 | +5d -0.054 (se 0.019) | +10d -0.080 (se 0.027) | +20d -0.172 (se 0.038)
+  momentum-day close   n= 1373 | +5d -0.102 (se 0.047) | +10d -0.022 (se 0.071) | +20d -0.072 (se 0.102)
+  pullback trade (1ATR stop, 2R, 20d): n=1122 avg +0.150R (se 0.043) | 2005-14 +0.227 | 2015+ +0.089 | long +0.261 (n=597) | short +0.025 (n=525)
+  baseline trade, random trend-state day, same exits: n=8612 avg +0.039R (se 0.015)  -> pullback minus baseline +0.111R
+
+INDEX2 (out-of-sample country ETFs)
+  pullback             n= 1640 | +5d +0.078 (se 0.053) | +10d +0.167 (se 0.070) | +20d +0.020 (se 0.099)
+  trend-state day      n=11351 | +5d -0.040 (se 0.018) | +10d -0.048 (se 0.025) | +20d -0.120 (se 0.036)
+  momentum-day close   n= 2039 | +5d -0.078 (se 0.043) | +10d -0.106 (se 0.065) | +20d +0.037 (se 0.094)
+  pullback trade (1ATR stop, 2R, 20d): n=1640 avg +0.115R (se 0.036) | 2005-14 +0.202 | 2015+ +0.048 | long +0.197 (n=874) | short +0.021 (n=766)
+  baseline trade, random trend-state day, same exits: n=11351 avg +0.053R (se 0.013)  -> pullback minus baseline +0.061R
+
+STOCKS
+  pullback             n= 3105 | +5d +0.034 (se 0.032) | +10d +0.023 (se 0.045) | +20d -0.049 (se 0.064)
+  trend-state day      n=28415 | +5d -0.032 (se 0.010) | +10d -0.050 (se 0.014) | +20d -0.090 (se 0.020)
+  momentum-day close   n= 3984 | +5d -0.007 (se 0.028) | +10d +0.044 (se 0.041) | +20d -0.042 (se 0.060)
+  pullback trade (1ATR stop, 2R, 20d): n=3105 avg +0.056R (se 0.026) | 2005-14 +0.084 | 2015+ +0.035 | long +0.188 (n=1668) | short -0.096 (n=1437)
+  baseline trade, random trend-state day, same exits: n=28415 avg +0.015R (se 0.008)  -> pullback minus baseline +0.042R
+
+COMMOD
+  pullback             n= 1424 | +5d -0.030 (se 0.056) | +10d -0.019 (se 0.077) | +20d +0.108 (se 0.107)
+  trend-state day      n=10049 | +5d +0.044 (se 0.019) | +10d +0.097 (se 0.027) | +20d +0.117 (se 0.038)
+  momentum-day close   n= 1737 | +5d +0.106 (se 0.053) | +10d +0.112 (se 0.072) | +20d +0.139 (se 0.102)
+  pullback trade (1ATR stop, 2R, 20d): n=1424 avg +0.023R (se 0.038) | 2005-14 +0.144 | 2015+ -0.039 | long +0.002 (n=719) | short +0.045 (n=705)
+  baseline trade, random trend-state day, same exits: n=10049 avg +0.079R (se 0.014)  -> pullback minus baseline -0.056R
+
+FX
+  pullback             n=  503 | +5d -0.001 (se 0.077) | +10d +0.175 (se 0.104) | +20d +0.209 (se 0.140)
+  trend-state day      n= 6634 | +5d +0.007 (se 0.018) | +10d +0.009 (se 0.025) | +20d -0.034 (se 0.036)
+  momentum-day close   n=  628 | +5d -0.025 (se 0.068) | +10d +0.058 (se 0.101) | +20d +0.094 (se 0.129)
+  pullback trade (1ATR stop, 2R, 20d): n=503 avg +0.119R (se 0.064) | 2005-14 +0.052 | 2015+ +0.185 | long +0.088 (n=249) | short +0.148 (n=254)
+  baseline trade, random trend-state day, same exits: n=6634 avg +0.013R (se 0.017)  -> pullback minus baseline +0.106R

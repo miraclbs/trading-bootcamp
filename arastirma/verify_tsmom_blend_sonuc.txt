@@ -1,0 +1,12 @@
+Blends (each leg scaled to 10% vol ex post; weights are risk weights). 2005+
+  SPY weight 0%: return +5.5% vol 10.0% Sharpe +0.55 maxDD 19% | 2015+ Sharpe +0.61 maxDD 18%
+  SPY weight 30%: return +5.6% vol 7.6% Sharpe +0.74 maxDD 13% | 2015+ Sharpe +0.85 maxDD 12%
+  SPY weight 50%: return +5.7% vol 7.0% Sharpe +0.82 maxDD 13% | 2015+ Sharpe +0.95 maxDD 10%
+  SPY weight 70%: return +5.8% vol 7.6% Sharpe +0.77 maxDD 20% | 2015+ Sharpe +0.92 maxDD 10%
+  SPY weight 100%: return +6.0% vol 10.0% Sharpe +0.60 maxDD 33% | 2015+ Sharpe +0.75 maxDD 19%
+
+Prop test, 2-step FTMO-like (no time limit approximated by 3 years per phase), path scaled to annual vol:
+  SPY weight 0%, ann vol 6%: pass 70% fail 4% | median days 890
+  SPY weight 0%, ann vol 8%: pass 70% fail 23% | median days 669
+  SPY weight 50%, ann vol 6%: pass 89% fail 4% | median days 891
+  SPY weight 50%, ann vol 8%: pass 89% fail 11% | median days 559

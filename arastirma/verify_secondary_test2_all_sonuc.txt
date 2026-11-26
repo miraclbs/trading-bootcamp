@@ -1,0 +1,19 @@
+Symbols (all): SPY QQQ IWM DIA GLD TLT XLE XLF EEM XLK XLV XLY XLP XLI XLU XLB SLV USO EFA EWJ EWZ FXI SMH IEF EWG EWU MDY  | daily 2005+ | long, 2R target, 20d time exit, no costs
+buy climax close    : n=  969 avg -0.085R (se 0.044) | 2R hit 30% stop 69% | 2005-14 +0.01 (n=452) | 2015+ -0.17 (n=517)
+random decline day  : n= 3452 avg +0.168R (se 0.024) | 2R hit 35% stop 58% | 2005-14 +0.13 (n=1488) | 2015+ +0.20 (n=1964)
+retest any          : n=  426 avg +0.271R (se 0.071) | 2R hit 41% stop 57% | 2005-14 +0.05 (n=213) | 2015+ +0.49 (n=213)
+retest hi-vol       : n=  141 avg +0.323R (se 0.123) | 2R hit 42% stop 54% | 2005-14 -0.02 (n=71) | 2015+ +0.67 (n=70)
+ST low-vol (all)    : n=  354 avg +0.155R (se 0.077) | 2R hit 37% stop 61% | 2005-14 -0.04 (n=185) | 2015+ +0.37 (n=169)
+  ST no undercut    : n=  220 avg +0.203R (se 0.098) | 2R hit 38% stop 59% | 2005-14 +0.06 (n=111) | 2015+ +0.35 (n=109)
+  spring undercut   : n=  134 avg +0.075R (se 0.124) | 2R hit 36% stop 64% | 2005-14 -0.19 (n=74) | 2015+ +0.40 (n=60)
+
+Differences:
+  ST low-vol (all)   - random decline day: -0.014R  (t = -0.17)
+  ST low-vol (all)   - buy climax close  : +0.239R  (t = +2.69)
+  ST low-vol (all)   - retest hi-vol     : -0.168R  (t = -1.15)
+  retest any         - random decline day: +0.102R  (t = +1.36)
+  buy climax close   - random decline day: -0.253R  (t = -5.02)
+
+ST low-vol avg by symbol (n):
+  SPY -1.00(6) | QQQ +0.74(10) | IWM +0.62(13) | DIA +0.80(10) | GLD +0.00(18) | TLT +0.26(19) | XLE +0.15(13) | XLF +0.06(17) | EEM +0.15(13) | XLK -0.20(18) | XLV +0.55(14) | XLY -0.06(16) | XLP +0.50(12) | XLI +0.00(15) | XLU -0.50(12) | XLB -0.18(11) | SLV -0.06(16) | USO +0.06(17) | EFA -0.14(7) | EWJ -0.14(14) | EWZ -0.31(13) | FXI +0.12(8) | SMH +0.55(19) | IEF +0.64(11) | EWG +0.36(11) | EWU -0.10(10) | MDY +1.08(11)
+  symbols with positive ST avg: 15/27

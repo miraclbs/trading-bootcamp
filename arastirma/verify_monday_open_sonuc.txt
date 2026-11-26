@@ -1,0 +1,26 @@
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+P(open of day d is traded through again within the next 4 days | after day d's close)
+  symbol    | Mon (next-day share) | other weekdays | Mon - others | by |C-O|/ATR bucket: Mon vs others
+  BTC-USD   | 64% (64%) | 68% | -3.9% (se 2.3%) | 0.0-0.5: 84% vs 83% (n=262) | 0.5-1.0: 52% vs 53% (n=145) | 1.0-inf: 31% vs 26% (n=106)
+             all weekdays: Mon 64% Tue 65% Wed 60% Thu 59% Fri 67% Sat 80% Sun 77%
+  ETH-USD   | 67% (67%) | 68% | -1.4% (se 2.4%) | 0.0-0.5: 83% vs 83% (n=247) | 0.5-1.0: 58% vs 54% (n=130) | 1.0-inf: 33% vs 24% (n=84)
+             all weekdays: Mon 67% Tue 67% Wed 60% Thu 61% Fri 66% Sat 77% Sun 77%
+  SPY       | 76% (71%) | 71% | +4.5% (se 1.5%) | 0.0-0.5: 84% vs 80% (n=695) | 0.5-1.0: 60% vs 61% (n=258) | 1.0-inf: 50% vs 44% (n=64)
+             all weekdays: Mon 76% Tue 70% Wed 73% Thu 71% Fri 72%
+  QQQ       | 74% (67%) | 71% | +3.2% (se 1.5%) | 0.0-0.5: 83% vs 81% (n=655) | 0.5-1.0: 63% vs 59% (n=287) | 1.0-inf: 46% vs 42% (n=78)
+             all weekdays: Mon 74% Tue 74% Wed 71% Thu 68% Fri 72%
+  GLD       | 76% (70%) | 71% | +4.7% (se 1.5%) | 0.0-0.5: 81% vs 79% (n=778) | 0.5-1.0: 63% vs 59% (n=207) | 1.0-inf: 50% vs 30% (n=34)
+             all weekdays: Mon 76% Tue 72% Wed 73% Thu 71% Fri 70%
+  EURUSD=X  | 83% (81%) | 79% | +3.8% (se 1.5%) | 0.0-0.5: 87% vs 84% (n=773) | 0.5-1.0: 57% vs 54% (n=74) | 1.0-inf: 46% vs 33% (n=28)
+             all weekdays: Mon 83% Tue 79% Wed 80% Thu 78% Fri 79%
+  GBPUSD=X  | 82% (81%) | 80% | +2.0% (se 1.3%) | 0.0-0.5: 86% vs 84% (n=933) | 0.5-1.0: 54% vs 58% (n=78) | 1.0-inf: 41% vs 27% (n=32)
+             all weekdays: Mon 82% Tue 81% Wed 82% Thu 78% Fri 79%
+  GC=F      | 71% (66%) | 66% | +4.7% (se 1.7%) | 0.0-0.5: 83% vs 78% (n=580) | 0.5-1.0: 60% vs 59% (n=237) | 1.0-inf: 33% vs 31% (n=111)
+             all weekdays: Mon 71% Tue 67% Wed 69% Thu 66% Fri 64%

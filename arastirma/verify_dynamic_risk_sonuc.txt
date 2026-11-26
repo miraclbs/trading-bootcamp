@@ -1,0 +1,28 @@
+
+== WR 30% RR 3.0 (EV +0.20R), phase 1 +10/-10, 300-trade cap ==
+ fixed      : pass 77.6% | fail 22.4% | timeout 0.0% | median trades to pass 22
+ halve_dd   : pass 88.6% | fail 10.7% | timeout 0.7% | median trades to pass 38
+ halve_loss : pass 86.2% | fail 12.6% | timeout 1.2% | median trades to pass 56
+ cut_after4 : pass 86.2% | fail 13.3% | timeout 0.5% | median trades to pass 33
+ double_win : pass 83.5% | fail 15.5% | timeout 1.0% | median trades to pass 31
+
+== WR 40% RR 2.0 (EV +0.20R), phase 1 +10/-10, 300-trade cap ==
+ fixed      : pass 87.6% | fail 12.4% | timeout 0.0% | median trades to pass 29
+ halve_dd   : pass 95.3% | fail 3.6% | timeout 1.1% | median trades to pass 42
+ halve_loss : pass 92.6% | fail 6.4% | timeout 1.1% | median trades to pass 58
+ cut_after4 : pass 94.4% | fail 4.8% | timeout 0.8% | median trades to pass 39
+ double_win : pass 93.2% | fail 5.3% | timeout 1.6% | median trades to pass 33
+
+== WR 55% RR 1.2 (EV +0.21R), phase 1 +10/-10, 300-trade cap ==
+ fixed      : pass 97.5% | fail 2.5% | timeout 0.0% | median trades to pass 38
+ halve_dd   : pass 99.4% | fail 0.2% | timeout 0.4% | median trades to pass 47
+ halve_loss : pass 98.6% | fail 1.1% | timeout 0.2% | median trades to pass 55
+ cut_after4 : pass 99.4% | fail 0.4% | timeout 0.2% | median trades to pass 41
+ double_win : pass 98.7% | fail 0.4% | timeout 0.9% | median trades to pass 33
+
+== WR 33% RR 2.0 (EV -0.01R), phase 1 +10/-10, 300-trade cap ==
+ fixed      : pass 46.5% | fail 53.5% | timeout 0.1% | median trades to pass 38
+ halve_dd   : pass 42.9% | fail 49.8% | timeout 7.3% | median trades to pass 54
+ halve_loss : pass 42.2% | fail 50.7% | timeout 7.2% | median trades to pass 80
+ cut_after4 : pass 44.0% | fail 51.3% | timeout 4.7% | median trades to pass 47
+ double_win : pass 43.6% | fail 51.5% | timeout 4.8% | median trades to pass 32

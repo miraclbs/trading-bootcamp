@@ -1,0 +1,36 @@
+
+=== COMMODITY ETFs === random-direction entries, mean R per trade; per symbol: A fixed2R | B Brandt3d | C 10dLow
+  GLD    n=1375 | A -0.041 | B +0.111 | C +0.177
+  SLV    n=1282 | A -0.056 | B +0.218 | C +0.291
+  USO    n=1288 | A +0.031 | B +0.062 | C +0.110
+  UNG    n=1263 | A -0.038 | B -0.005 | C -0.096
+  DBA    n=1243 | A -0.001 | B +0.083 | C +0.221
+  DBC    n=1339 | A -0.007 | B +0.113 | C +0.146
+  PPLT   n= 984 | A +0.074 | B +0.152 | C +0.127
+  PALL   n=1021 | A +0.017 | B +0.145 | C +0.111
+  CPER   n= 937 | A -0.162 | B -0.089 | C -0.163
+  CORN   n=1072 | A -0.018 | B -0.006 | C -0.026
+  WEAT   n= 948 | A -0.045 | B -0.018 | C -0.014
+  SOYB   n= 958 | A -0.119 | B -0.084 | C -0.123
+  pooled fixed 2R    : all -0.028 (se 0.013) | 2005-14 -0.027 | 2015+ -0.029
+  pooled Brandt 3-day: all +0.064 (se 0.017) | 2005-14 +0.046 | 2015+ +0.073
+  pooled 10-day low  : all +0.076 (se 0.020) | 2005-14 +0.071 | 2015+ +0.078
+  symbols where trailing beats fixed: Brandt 12/12, 10-day 8/12
+
+=== COMMODITY FUTURES (continuous, roll-gap filter 3 ATR) === random-direction entries, mean R per trade; per symbol: A fixed2R | B Brandt3d | C 10dLow
+  GC=F   n=1381 | A -0.056 | B +0.074 | C +0.017
+  SI=F   n=1334 | A -0.108 | B +0.214 | C +0.216
+  CL=F   n=1422 | A -0.011 | B +0.067 | C +0.065
+  NG=F   n=1400 | A -0.010 | B -0.061 | C -0.075
+  HG=F   n=1410 | A +0.076 | B +0.155 | C +0.202
+  ZC=F   n=1345 | A -0.043 | B -0.085 | C -0.064
+  ZS=F   n=1359 | A +0.025 | B +0.113 | C +0.142
+  ZW=F   n=1359 | A +0.003 | B -0.033 | C -0.081
+  KC=F   n=1352 | A -0.106 | B -0.044 | C -0.121
+  SB=F   n=1408 | A -0.018 | B +0.023 | C +0.026
+  CT=F   n=1346 | A -0.036 | B +0.001 | C +0.106
+  LE=F   n=1197 | A -0.078 | B -0.053 | C -0.083
+  pooled fixed 2R    : all -0.029 (se 0.011) | 2005-14 -0.069 | 2015+ +0.003
+  pooled Brandt 3-day: all +0.032 (se 0.015) | 2005-14 -0.009 | 2015+ +0.065
+  pooled 10-day low  : all +0.031 (se 0.017) | 2005-14 +0.006 | 2015+ +0.051
+  symbols where trailing beats fixed: Brandt 9/12, 10-day 7/12 | trades dropped for roll gaps: 387/16700

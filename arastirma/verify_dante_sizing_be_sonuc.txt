@@ -1,0 +1,23 @@
+(1) Variable sizing on a +0.15R/lot strategy (WR 50%, win 1.3R), 200 trades, 20,000 runs
+  fixed 2 lots                                    : mean P&L   +59.9R | per lot +0.150R | P(loss after 200) 3.0% | P&L sd 33
+  Dante's pattern, same trade quality             : mean P&L   +67.0R | per lot +0.149R | P(loss after 200) 5.4% | P&L sd 42
+  Dante's pattern + gut-feel 5-lots, same quality : mean P&L   +88.7R | per lot +0.151R | P(loss after 200) 5.1% | P&L sd 54
+  revenge 4-lot trades WR 40%                     : mean P&L   +21.7R | per lot +0.050R | P(loss after 200) 29.7% | P&L sd 40
+  revenge WR 40% + gut-feel 5-lots WR 42%         : mean P&L    +7.1R | per lot +0.012R | P(loss after 200) 45.1% | P&L sd 53
+
+(2) Breakeven stop. Gaussian random walk, 1 step sd = 1, stop = 10 (1R), target = 20 (2R), 20,000 trades
+  drift +0.00/step:
+     no BE: EV +0.006R (se 0.010), 34% full win, 0% scratch, EV/100 steps +0.003
+     BE@+0.5R: EV +0.039R (se 0.007), 19% full win, 47% scratch, EV/100 steps +0.032
+     BE@+1.0R: EV +0.021R (se 0.009), 26% full win, 24% scratch, EV/100 steps +0.012
+     BE@+1.5R: EV +0.025R (se 0.010), 31% full win, 10% scratch, EV/100 steps +0.013
+  drift +0.01/step:
+     no BE: EV +0.235R (se 0.010), 41% full win, 0% scratch, EV/100 steps +0.105
+     BE@+0.5R: EV +0.136R (se 0.008), 22% full win, 46% scratch, EV/100 steps +0.110
+     BE@+1.0R: EV +0.210R (se 0.009), 33% full win, 23% scratch, EV/100 steps +0.121
+     BE@+1.5R: EV +0.225R (se 0.010), 38% full win, 9% scratch, EV/100 steps +0.111
+  drift +0.03/step:
+     no BE: EV +0.662R (se 0.011), 55% full win, 0% scratch, EV/100 steps +0.295
+     BE@+0.5R: EV +0.420R (se 0.008), 33% full win, 44% scratch, EV/100 steps +0.322
+     BE@+1.0R: EV +0.531R (se 0.010), 44% full win, 21% scratch, EV/100 steps +0.299
+     BE@+1.5R: EV +0.604R (se 0.010), 51% full win, 8% scratch, EV/100 steps +0.291

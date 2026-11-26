@@ -1,0 +1,6 @@
+EQ+CMD         risk 0.2%: CAGR +2.5% maxDD 7.4% taken 1138 (64/yr) | 2-step: pass 2% fail 0% timeout 98%
+EQ+CMD         risk 0.5%: CAGR +4.9% maxDD 13.9% taken 1138 (64/yr) | 2-step: pass 31% fail 2% timeout 67%
+EQ+CMD         risk 0.8%: CAGR +7.2% maxDD 20.1% taken 1139 (64/yr) | 2-step: pass 51% fail 22% timeout 27%
+CMD only       risk 0.2%: CAGR +2.7% maxDD 7.7% taken 829 (46/yr) | 2-step: pass 1% fail 0% timeout 98%
+CMD only       risk 0.5%: CAGR +5.3% maxDD 14.8% taken 829 (46/yr) | 2-step: pass 29% fail 6% timeout 66%
+CMD only       risk 0.8%: CAGR +7.8% maxDD 21.4% taken 829 (46/yr) | 2-step: pass 40% fail 29% timeout 31%

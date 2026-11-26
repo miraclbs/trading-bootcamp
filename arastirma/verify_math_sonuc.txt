@@ -1,0 +1,58 @@
+== P(net loss) for WR=40%, RR=2 (EV=+0.2R) ==
+n=20: P(loss)=0.250
+n=100: P(loss)=0.091
+n=300: P(loss)=0.007
+
+== P(at least one run of >=k losses in 100 trades), loss prob q ==
+WR=40% k=5: 0.976
+WR=40% k=7: 0.696
+WR=40% k=10: 0.205
+WR=50% k=5: 0.816
+WR=50% k=7: 0.318
+WR=50% k=10: 0.045
+WR=60% k=5: 0.458
+WR=60% k=7: 0.086
+WR=60% k=10: 0.006
+
+== P(50% drawdown from start within 500 trades), WR=40% RR=2 ==
+risk=0.5%: 0.000
+risk=1.0%: 0.000
+risk=2.0%: 0.003
+risk=5.0%: 0.120
+risk=10.0%: 0.467
+
+== Max drawdown distribution (peak-to-trough), WR=40% RR=2, 500 trades ==
+risk=0.5%: median MDD=8.0%, 95th pct=13.4%
+risk=1.0%: median MDD=15.4%, 95th pct=25.5%
+risk=2.0%: median MDD=29.4%, 95th pct=45.1%
+
+== Recovery needed after loss ==
+loss 10% -> need +11.1%
+loss 20% -> need +25.0%
+loss 30% -> need +42.9%
+loss 50% -> need +100.0%
+loss 65% -> need +185.7%
+loss 80% -> need +400.0%
+
+== 10 consecutive losses ==
+risk 1%: drawdown 9.6%
+risk 2%: drawdown 18.3%
+risk 5%: drawdown 40.1%
+risk 10%: drawdown 65.1%
+
+== Breakeven WR = 1/(1+RR) ==
+RR 0.5: 66.7%
+RR 1: 50.0%
+RR 1.5: 40.0%
+RR 2: 33.3%
+RR 3: 25.0%
+RR 4: 20.0%
+RR 5: 16.7%
+
+== Kelly fraction f* = WR - (1-WR)/RR ==
+WR 40% RR 2: full Kelly 10.0%, half 5.0%
+WR 55% RR 1: full Kelly 10.0%, half 5.0%
+WR 50% RR 2: full Kelly 25.0%, half 12.5%
+WR 35% RR 3: full Kelly 13.3%, half 6.7%
+
+[exited with code 0]

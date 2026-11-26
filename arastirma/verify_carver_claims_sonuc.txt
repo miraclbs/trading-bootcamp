@@ -1,0 +1,20 @@
+(1) Diversification: 12-month TSMOM Sharpe, single assets vs portfolio (2005+, 5bp turnover cost)
+  single-asset Sharpes: USDCHF -0.18 EURUSD -0.15 GBPUSD -0.06 AUDUSD -0.05 USDCAD -0.01 TLT +0.05 USO +0.12 DBA +0.19 CPER +0.24 SLV +0.24 EWJ +0.25 EFA +0.25 EEM +0.29 UNG +0.31 IEF +0.39 GLD +0.42 DBC +0.47 USDJPY +0.51 SPY +0.55
+  average single-asset Sharpe +0.20 (median +0.24) | equal-risk portfolio of 19: +0.55 -> ratio 2.7x
+  markets with data: 19
+  random subsets of  1 markets: mean portfolio Sharpe +0.30
+  random subsets of  3 markets: mean portfolio Sharpe +0.30
+  random subsets of  5 markets: mean portfolio Sharpe +0.40
+  random subsets of 10 markets: mean portfolio Sharpe +0.46
+  random subsets of 19 markets: mean portfolio Sharpe +0.55
+
+(2) Signal shape (all 19 markets): binary 12-month sign (monthly) vs Carver-style continuous breakout (weekly)
+  sign : Sharpe 2005+ +0.55 | 2015+ +0.61 | annual turnover 3.5x
+  cont : Sharpe 2005+ +0.02 | 2015+ -0.13 | annual turnover 12.7x
+
+(3) Standard error of a single-asset Sharpe over 22 years ~ 0.21. Observed std of single-asset Sharpes: 0.22.
+
+(2b) Same continuous forecast, LONG look-backs only (separating signal shape from look-back length):
+  continuous, look-backs (160, 320): Sharpe 2005+ +0.26 | 2015+ +0.17 | turnover 7.1x
+  continuous, look-backs (250,): Sharpe 2005+ +0.32 | 2015+ +0.26 | turnover 6.6x
+  continuous, look-backs (320,): Sharpe 2005+ +0.26 | 2015+ +0.19 | turnover 5.9x

@@ -1,0 +1,16 @@
+Days opening ABOVE the 5-min EMA20: share that never touch it / have >=3 bars below / after touch+bull bar, test of the high
+  SPY   days= 58 | open above  28 | never touch  0 (  0%; base   0%) | >=3 below  96% (base 100%) | high test after touch+bull  31% (base  71%)
+  QQQ   days= 58 | open above  29 | never touch  0 (  0%; base   0%) | >=3 below  97% (base 100%) | high test after touch+bull  50% (base  76%)
+  IWM   days= 58 | open above  28 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  46% (base  61%)
+  DIA   days= 58 | open above  27 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  42% (base  64%)
+  AAPL  days= 58 | open above  35 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  29% (base  57%)
+  MSFT  days= 58 | open above  32 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  38% (base  62%)
+  NVDA  days= 58 | open above  30 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  20% (base  61%)
+  AMZN  days= 58 | open above  30 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  47% (base  63%)
+  META  days= 58 | open above  29 | never touch  0 (  0%; base   0%) | >=3 below  97% (base 100%) | high test after touch+bull  43% (base  65%)
+  XLF   days= 58 | open above  33 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  30% (base  57%)
+  XLE   days= 58 | open above  30 | never touch  0 (  0%; base   0%) | >=3 below  97% (base 100%) | high test after touch+bull  30% (base  61%)
+  GLD   days= 58 | open above  26 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  50% (base  66%)
+  TLT   days= 58 | open above  31 | never touch  0 (  0%; base   0%) | >=3 below 100% (base 100%) | high test after touch+bull  47% (base  74%)
+
+POOLED: open-above days 388 | never touch 0 = 0.0% (bootstrap 0.0%) | >=3 bars below 99.0% (bootstrap 99.9%) | test of high after touch + bull bar 38% (bootstrap 65%)

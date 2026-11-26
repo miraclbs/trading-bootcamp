@@ -1,0 +1,4 @@
+SPY: real PDH/PDL rejection 140/339 = 41% | random levels 140/346 = 40%
+QQQ: real PDH/PDL rejection 136/311 = 44% | random levels 143/317 = 45%
+IWM: real PDH/PDL rejection 153/332 = 46% | random levels 167/347 = 48%
+POOLED: real 429/982 = 43.7% | random 450/1010 = 44.6% | random-walk theory 50%

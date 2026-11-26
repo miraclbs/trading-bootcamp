@@ -1,0 +1,12 @@
+(1) Power: probability that a one-sided t-test (5%) shows A > B, B EV +0.10R, A EV +0.10+delta
+    n_A trades |  delta +0.15R |  +0.30R |  +0.50R
+            20 |    10% |    19% |    38%
+            50 |    16% |    34% |    67%
+           100 |    22% |    57% |    90%
+           200 |    36% |    82% |   100%
+           400 |    59% |    98% |   100%
+
+(2) One year (200 trades), risk 1% x size (A 2x, B 1x, C 0.5x) vs flat 1%: mean return / 5th pct / median max drawdown
+  informative (A +0.40, C 0.00)                | graded: +45.0% / -3.9% / DD 14.5% | flat: +28.4% / -9.5% / DD 14.1%
+  uninformative (all +0.10)                    | graded: +23.0% / -17.5% / DD 17.1% | flat: +22.0% / -14.7% / DD 15.0%
+  inverse (A -0.10, C +0.30; Brandt's warning) | graded: +13.9% / -24.0% / DD 18.8% | flat: +24.3% / -12.1% / DD 14.9%

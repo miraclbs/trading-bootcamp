@@ -1,0 +1,30 @@
+
+=== INDEX ===
+  breakout | fixed 2R/20d       | n= 2524 avg -0.043R (se 0.030) PF 0.94 worst -5.0R top-trades-for-80%-of-net -
+  breakout | Brandt 3-day trail | n= 2524 avg -0.092R (se 0.032) PF 0.85 worst -5.0R top-trades-for-80%-of-net -
+  breakout | 10-day-low trail   | n= 2524 avg -0.124R (se 0.035) PF 0.79 worst -5.0R top-trades-for-80%-of-net -
+  random   | fixed 2R/20d       | n= 1289 avg -0.056R (se 0.042) PF 0.92 worst -4.4R top-trades-for-80%-of-net -
+  random   | Brandt 3-day trail | n= 1289 avg -0.041R (se 0.048) PF 0.93 worst -4.4R top-trades-for-80%-of-net -
+  random   | 10-day-low trail   | n= 1289 avg -0.082R (se 0.049) PF 0.87 worst -3.5R top-trades-for-80%-of-net -
+
+=== COMMOD ===
+  breakout | fixed 2R/20d       | n= 2913 avg +0.036R (se 0.029) PF 1.05 worst -12.9R top-trades-for-80%-of-net 1%
+  breakout | Brandt 3-day trail | n= 2913 avg +0.125R (se 0.041) PF 1.20 worst -12.9R top-trades-for-80%-of-net 1%
+  breakout | 10-day-low trail   | n= 2913 avg +0.098R (se 0.046) PF 1.17 worst -12.9R top-trades-for-80%-of-net 0%
+  random   | fixed 2R/20d       | n= 1632 avg +0.039R (se 0.038) PF 1.06 worst -8.4R top-trades-for-80%-of-net 2%
+  random   | Brandt 3-day trail | n= 1632 avg +0.107R (se 0.049) PF 1.18 worst -8.4R top-trades-for-80%-of-net 1%
+  random   | 10-day-low trail   | n= 1632 avg +0.156R (se 0.062) PF 1.27 worst -8.4R top-trades-for-80%-of-net 1%
+
+=== FX ===
+  breakout | fixed 2R/20d       | n= 1556 avg -0.062R (se 0.037) PF 0.91 worst -9.0R top-trades-for-80%-of-net -
+  breakout | Brandt 3-day trail | n= 1556 avg -0.056R (se 0.041) PF 0.90 worst -9.0R top-trades-for-80%-of-net -
+  breakout | 10-day-low trail   | n= 1556 avg -0.004R (se 0.047) PF 0.99 worst -9.0R top-trades-for-80%-of-net -
+  random   | fixed 2R/20d       | n= 1152 avg -0.077R (se 0.041) PF 0.89 worst -6.1R top-trades-for-80%-of-net -
+  random   | Brandt 3-day trail | n= 1152 avg -0.085R (se 0.045) PF 0.86 worst -6.1R top-trades-for-80%-of-net -
+  random   | 10-day-low trail   | n= 1152 avg -0.013R (se 0.051) PF 0.98 worst -6.1R top-trades-for-80%-of-net -
+
+P(at least one 20-trade window with >= 19 losers) for iid trades:
+  WR 50%, 1000 trades: 0.57%
+  WR 50%, 3000 trades: 2.12%
+  WR 55%, 1000 trades: 0.18%
+  WR 55%, 3000 trades: 0.40%

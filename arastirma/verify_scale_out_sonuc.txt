@@ -1,0 +1,19 @@
+Same entries, different exits. Cells: mean R (se) | sd | mean/sd   (no costs; scaling adds commissions in reality)
+(a) RSI-2 index longs: n=793
+   ALL-2R  : +0.100R (0.051) | sd 1.44 | +0.070
+   SCALE   : +0.058R (0.033) | sd 0.92 | +0.063
+   SCALE+L : +0.007R (0.029) | sd 0.81 | +0.008
+   TRAIL   : +0.296R (0.098) | sd 2.77 | +0.107
+   HALF+TR : +0.199R (0.068) | sd 1.91 | +0.104
+(b) commodity 20d breakout: n=2905
+   ALL-2R  : +0.071R (0.026) | sd 1.41 | +0.051
+   SCALE   : +0.033R (0.017) | sd 0.92 | +0.036
+   SCALE+L : +0.000R (0.015) | sd 0.81 | +0.000
+   TRAIL   : +0.185R (0.057) | sd 3.06 | +0.061
+   HALF+TR : +0.128R (0.037) | sd 1.99 | +0.064
+(c) random entries: n=832
+   ALL-2R  : -0.042R (0.047) | sd 1.37 | -0.031
+   SCALE   : -0.051R (0.032) | sd 0.92 | -0.056
+   SCALE+L : -0.079R (0.028) | sd 0.79 | -0.100
+   TRAIL   : -0.030R (0.079) | sd 2.27 | -0.013
+   HALF+TR : -0.043R (0.057) | sd 1.65 | -0.026

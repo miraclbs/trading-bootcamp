@@ -1,0 +1,25 @@
+Time-series momentum, monthly rebalance, vol-scaled, 5bp turnover cost. annual return / vol / Sharpe / maxDD
+  12-month all classes 2005+   : +2.3% / 4.2% / Sharpe +0.55 / maxDD 8%
+  12-month all classes 2005-14 : +2.2% / 4.6% / Sharpe +0.48 / maxDD 8%
+  12-month all classes 2015+   : +2.4% / 3.9% / Sharpe +0.61 / maxDD 8%
+  3-month  all classes 2005+   : +1.7% / 4.4% / Sharpe +0.40 / maxDD 10%
+  3-month  all classes 2005-14 : +2.1% / 4.5% / Sharpe +0.46 / maxDD 9%
+  3-month  all classes 2015+   : +1.4% / 4.2% / Sharpe +0.33 / maxDD 10%
+  1-month  all classes 2005+   : +0.1% / 4.2% / Sharpe +0.02 / maxDD 16%
+  1-month  all classes 2005-14 : +0.7% / 4.3% / Sharpe +0.17 / maxDD 8%
+  1-month  all classes 2015+   : -0.5% / 4.1% / Sharpe -0.12 / maxDD 16%
+
+12-month rule by asset class (2005+ and 2015+ Sharpe):
+  EQ   : 2005+ Sharpe +0.43 | 2015+ Sharpe +0.44
+  BOND : 2005+ Sharpe +0.23 | 2015+ Sharpe +0.05
+  CMD  : 2005+ Sharpe +0.64 | 2015+ Sharpe +0.61
+  FX   : 2005+ Sharpe -0.00 | 2015+ Sharpe +0.14
+
+SPY buy&hold 2005+: return +11.2% vol 18.6% Sharpe +0.60 maxDD 55%
+Correlation of 12-month TSMOM with SPY (daily): -0.02
+
+Prop test (2-step FTMO-like, 3-year limit per phase) on the 12-month TSMOM path scaled to an annual vol:
+  ann vol 4%: pass 23% fail 0% | median days to pass both 1086
+  ann vol 6%: pass 70% fail 4% | median days to pass both 890
+  ann vol 8%: pass 70% fail 23% | median days to pass both 669
+  ann vol 10%: pass 63% fail 37% | median days to pass both 452

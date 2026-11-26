@@ -1,0 +1,44 @@
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+  O, H, L, C = (d[c].values for c in ("Open", "High", "Low", "Close")); wd = d.index.dayofweek.values
+
+=== COMMOD ETF (Brandt 3-day trailing exit, 1-ATR initial stop, no costs) ===
+  20-day breakout: n=4861 | base mean +0.073R (top 15% of trades = 809% of net)
+    exit on first losing close  : mean +0.043R (diff -0.030) | top-15% winners cut 30% | win rate 22% vs 33%
+    exit after 2 losing closes  : mean +0.072R (diff -0.001) | top-15% winners cut 8% | win rate 30% vs 33%
+    exit losers on Friday       : mean +0.064R (diff -0.009) | top-15% winners cut 9% | win rate 29% vs 33%
+  random entry: n=1224 | base mean -0.011R (top 15% of trades = nan% of net)
+    exit on first losing close  : mean -0.023R (diff -0.012) | top-15% winners cut 32% | win rate 22% vs 31%
+    exit after 2 losing closes  : mean -0.013R (diff -0.001) | top-15% winners cut 8% | win rate 29% vs 31%
+    exit losers on Friday       : mean -0.004R (diff +0.008) | top-15% winners cut 13% | win rate 28% vs 31%
+
+=== COMMOD FUT (Brandt 3-day trailing exit, 1-ATR initial stop, no costs) ===
+  20-day breakout: n=5890 | base mean +0.075R (top 15% of trades = 795% of net)
+    exit on first losing close  : mean +0.057R (diff -0.019) | top-15% winners cut 31% | win rate 21% vs 32%
+    exit after 2 losing closes  : mean +0.066R (diff -0.009) | top-15% winners cut 10% | win rate 28% vs 32%
+    exit losers on Friday       : mean +0.077R (diff +0.001) | top-15% winners cut 9% | win rate 28% vs 32%
+  random entry: n=1544 | base mean -0.038R (top 15% of trades = nan% of net)
+    exit on first losing close  : mean -0.043R (diff -0.005) | top-15% winners cut 28% | win rate 20% vs 28%
+    exit after 2 losing closes  : mean -0.040R (diff -0.001) | top-15% winners cut 10% | win rate 25% vs 28%
+    exit losers on Friday       : mean -0.059R (diff -0.021) | top-15% winners cut 13% | win rate 25% vs 28%

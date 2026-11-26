@@ -1,0 +1,39 @@
+$EWP: possibly delisted; no price data found  (1d 2004-01-01 -> 2026-11-22)
+
+1 Failed download:
+['EWP']: possibly delisted; no price data found  (1d 2004-01-01 -> 2026-11-22)
+INDEX: 597 long pullback trades, avg +0.261R
+INDEX2: 803 long pullback trades, avg +0.208R
+STOCKS: 1668 long pullback trades, avg +0.188R
+
+Avg R by feature tercile (cut points from the pooled sample). se in brackets. 'ALL3' = same direction in all sets
+
+depth:
+  INDEX   low (<2.29): +0.275 [0.106] n=194 | mid: +0.306 [0.103] n=209 | high (>2.77): +0.197 [0.105] n=194
+  INDEX2  low (<2.29): +0.272 [0.103] n=208 | mid: +0.063 [0.087] n=271 | high (>2.77): +0.288 [0.082] n=324
+  STOCKS  low (<2.29): +0.166 [0.058] n=621 | mid: +0.187 [0.063] n=542 | high (>2.77): +0.215 [0.065] n=505
+  -> best bin same in all 3 sets: no | worst bin same in all 3: no
+
+days:
+  INDEX   low (<7.00): +0.168 [0.113] n=168 | mid: +0.448 [0.106] n=201 | high (>12.00): +0.164 [0.097] n=228
+  INDEX2  low (<7.00): +0.164 [0.090] n=266 | mid: +0.287 [0.091] n=266 | high (>12.00): +0.173 [0.089] n=271
+  STOCKS  low (<7.00): +0.155 [0.067] n=475 | mid: +0.246 [0.064] n=537 | high (>12.00): +0.164 [0.057] n=656
+  -> best bin same in all 3 sets: YES mid | worst bin same in all 3: no
+
+quiet:
+  INDEX   low (<0.76): +0.170 [0.087] n=283 | mid: +0.348 [0.104] n=207 | high (>0.97): +0.330 [0.143] n=107
+  INDEX2  low (<0.76): +0.170 [0.066] n=485 | mid: +0.210 [0.101] n=211 | high (>0.97): +0.374 [0.144] n=107
+  STOCKS  low (<0.76): +0.160 [0.091] n=255 | mid: +0.250 [0.060] n=604 | high (>0.97): +0.150 [0.051] n=809
+  -> best bin same in all 3 sets: no | worst bin same in all 3: no
+
+thrust:
+  INDEX   low (<0.15): +0.307 [0.105] n=202 | mid: +0.235 [0.103] n=204 | high (>0.40): +0.238 [0.106] n=191
+  INDEX2  low (<0.15): +0.148 [0.091] n=256 | mid: +0.267 [0.090] n=273 | high (>0.40): +0.204 [0.089] n=274
+  STOCKS  low (<0.15): +0.214 [0.062] n=565 | mid: +0.152 [0.062] n=545 | high (>0.40): +0.197 [0.062] n=558
+  -> best bin same in all 3 sets: no | worst bin same in all 3: no
+
+lt_trend:
+  INDEX   below 200SMA: +0.565 [0.221] n=46 | above 200SMA: +0.235 [0.063] n=551
+  INDEX2  below 200SMA: +0.104 [0.146] n=98 | above 200SMA: +0.222 [0.055] n=705
+  STOCKS  below 200SMA: -0.060 [0.103] n=182 | above 200SMA: +0.218 [0.038] n=1486
+  -> best bin same in all 3 sets: no | worst bin same in all 3: no

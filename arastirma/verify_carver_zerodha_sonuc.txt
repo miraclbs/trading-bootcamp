@@ -1,0 +1,23 @@
+(A) Trend rules on 19 markets, vol-scaled, weekly rebalance, 5 bp costs, 2005+
+  rule                 Sharpe 2005+ | 2015+ | corr with EWMAC 16/64 | corr with 252-day return
+  EWMAC 8/32           -0.01      | -0.19 | +0.82                 | +0.39
+  EWMAC 16/64          +0.29      | +0.18 | +1.00                 | +0.53
+  EWMAC 32/128         +0.42      | +0.36 | +0.81                 | +0.71
+  EWMAC 64/256         +0.26      | +0.14 | +0.55                 | +0.84
+  20-day return        -0.04      | -0.32 | +0.62                 | +0.31
+  63-day return        +0.12      | -0.19 | +0.88                 | +0.49
+  126-day return       +0.49      | +0.27 | +0.76                 | +0.65
+  252-day return       +0.47      | +0.46 | +0.53                 | +1.00
+  Donchian 20          -0.31      | -0.44 | +0.50                 | +0.25
+  Donchian 55          +0.02      | -0.20 | +0.83                 | +0.39
+  Donchian 120         +0.23      | -0.07 | +0.90                 | +0.53
+  AVERAGE of all 11    +0.26      | +0.03 | +0.92                 | +0.68
+  average pairwise P&L correlation among the 11 rules: 0.62 (min 0.13, max 0.92)
+  ... among the 8 rules slower than ~1 month: 0.69
+
+(B) Max drawdown sampling: 12m TSMOM (252-day return rule) scaled to 8% annual vol, 20-day block bootstrap
+  historical: 23 years, Sharpe 0.47, single max drawdown 18.5%
+   1-year window: max DD percentiles 5/25/50/75/95 = 3.8% / 5.5% / 7.4% / 10.0% / 14.6% | P(maxDD > 10%) = 25%
+   2-year window: max DD percentiles 5/25/50/75/95 = 5.4% / 7.6% / 9.9% / 13.1% / 19.2% | P(maxDD > 10%) = 49%
+   5-year window: max DD percentiles 5/25/50/75/95 = 8.3% / 11.3% / 14.2% / 18.0% / 25.6% | P(maxDD > 10%) = 85%
+  20-year window: max DD percentiles 5/25/50/75/95 = 14.4% / 18.2% / 21.9% / 26.8% / 35.7% | P(maxDD > 10%) = 100%

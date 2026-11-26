@@ -1,0 +1,5 @@
+Futures, last hour of the cash session, fade the day's move so far. net bp/day after cost
+  ES=F  n=584 net -0.09bp (sd 29.9) Sharpe -0.05 | 1st half -1.02 | 2nd half +1.10 | day move >0.5%: -0.50bp (n=278) | R/yr (1R=1sd) -0.8
+  NQ=F  n=586 net -0.79bp (sd 39.0) Sharpe -0.32 | 1st half -0.19 | 2nd half -0.45 | day move >0.5%: -0.01bp (n=362) | R/yr (1R=1sd) -5.1
+  YM=F  n=585 net -1.02bp (sd 25.1) Sharpe -0.65 | 1st half -0.83 | 2nd half -0.43 | day move >0.5%: -0.58bp (n=302) | R/yr (1R=1sd) -10.3
+  RTY=F n=591 net -1.09bp (sd 34.2) Sharpe -0.50 | 1st half -0.35 | 2nd half -0.69 | day move >0.5%: +0.61bp (n=401) | R/yr (1R=1sd) -8.0

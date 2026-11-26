@@ -1,0 +1,8 @@
+PART 1: in-sample robustness (all available 1h history)
+   SPY: 722 days, mean +1.77bp | low VIX: +1.37bp (t +1.3) | mid: +1.71bp (t +1.4) | high VIX: +2.24bp (t +1.2) | positive months 75% of 36 | VIX terciles 15.5/18.0
+   QQQ: 722 days, mean +1.73bp | low VIX: +0.90bp (t +0.7) | mid: +0.38bp (t +0.2) | high VIX: +3.92bp (t +1.7) | positive months 61% of 36 | VIX terciles 15.5/18.0
+   IWM: 722 days, mean +1.58bp | low VIX: -1.30bp (t -1.0) | mid: +3.19bp (t +2.1) | high VIX: +2.86bp (t +1.6) | positive months 61% of 36 | VIX terciles 15.5/18.0
+PART 2: forward test from 2026-11-23 (pre-registered rule in the docstring)
+   SPY: 0 forward days so far - run again after >= 60 trading days
+   QQQ: 0 forward days so far - run again after >= 60 trading days
+   IWM: 0 forward days so far - run again after >= 60 trading days

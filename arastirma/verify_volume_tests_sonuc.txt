@@ -1,0 +1,34 @@
+=== (A) Prior-day volume profile levels vs random levels (5-min, ~60d) ===
+  random : rejection 93/206 = 45.1%
+  POC    : rejection 41/72 = 56.9%
+  VAH    : rejection 32/67 = 47.8%
+  VAL    : rejection 27/70 = 38.6%
+
+=== (B) VSA stopping-volume down bars (1h, ~2y): forward return in daily-ATR units ===
+  SPY stopping : N=   16 | +3 bars mean -0.185 ATR, up% 50% | +7 bars mean +0.126 ATR (se 0.336), up% 56%
+  SPY down_all : N= 2409 | +3 bars mean +0.022 ATR, up% 54% | +7 bars mean +0.052 ATR (se 0.018), up% 54%
+  SPY all      : N= 5076 | +3 bars mean +0.022 ATR, up% 54% | +7 bars mean +0.049 ATR (se 0.012), up% 55%
+  QQQ stopping : N=   24 | +3 bars mean +0.057 ATR, up% 58% | +7 bars mean +0.220 ATR (se 0.236), up% 58%
+  QQQ down_all : N= 2407 | +3 bars mean +0.011 ATR, up% 53% | +7 bars mean +0.042 ATR (se 0.018), up% 55%
+  QQQ all      : N= 5054 | +3 bars mean +0.020 ATR, up% 54% | +7 bars mean +0.045 ATR (se 0.013), up% 55%
+  IWM stopping : N=   15 | +3 bars mean -0.162 ATR, up% 53% | +7 bars mean -0.038 ATR (se 0.298), up% 60%
+  IWM down_all : N= 2464 | +3 bars mean +0.004 ATR, up% 51% | +7 bars mean +0.017 ATR (se 0.016), up% 52%
+  IWM all      : N= 5076 | +3 bars mean +0.009 ATR, up% 52% | +7 bars mean +0.019 ATR (se 0.012), up% 51%
+=== (A2) 1h-bar prior-day profile, ~2y ===
+  POC    : rejection 547/1090 = 50.2% (se 1.5%)
+  random : rejection 1551/3152 = 49.2% (se 0.9%)
+  VAH    : rejection 496/1030 = 48.2% (se 1.6%)
+  VAL    : rejection 434/936 = 46.4% (se 1.6%)
+
+=== (B2) pooled high-RVOL down bars, 1h ~2y, forward 7 bars (daily-ATR units) ===
+  all                              N=14786 mean +0.037 ATR (se 0.007) up% 54%
+  down_all                         N= 7103 mean +0.037 ATR (se 0.010) up% 54%
+  hiRV_down_lowerclose(weakness)   N=  820 mean +0.154 ATR (se 0.034) up% 60%
+  hiRV_down_upperclose(stopping)   N=  138 mean +0.039 ATR (se 0.086) up% 51%
+first signal per symbol-day only (non-overlapping within day)
+ all     : N= 500 mean +0.089 (se 0.041) up% 57%
+ 1st half: N= 249 mean -0.044 (se 0.061) up% 51%
+ 2nd half: N= 251 mean +0.221 (se 0.055) up% 63%
+ SPY     : N= 155 mean +0.163 (se 0.077) up% 62%
+ QQQ     : N= 176 mean +0.012 (se 0.072) up% 53%
+ IWM     : N= 169 mean +0.101 (se 0.066) up% 57%

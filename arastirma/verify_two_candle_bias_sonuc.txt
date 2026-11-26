@@ -1,0 +1,10 @@
+2-candle bias, 1:1 at session-start hours. win rate (mean R) n
+  BTC-USD  : bias 50% (-0.007R) n=1107 | opposite 49% (-0.025R) | random 49% (-0.032R)
+  ETH-USD  : bias 50% (-0.002R) n=1106 | opposite 49% (-0.027R) | random 49% (-0.014R)
+  EURUSD=X : bias 46% (-0.084R) n=926 | opposite 53% (+0.054R) | random 48% (-0.041R)
+  GBPUSD=X : bias 48% (-0.042R) n=1006 | opposite 51% (+0.012R) | random 50% (+0.010R)
+  GC=F     : bias 48% (-0.040R) n=969 | opposite 51% (+0.018R) | random 50% (+0.005R)
+  NQ=F     : bias 48% (-0.043R) n=976 | opposite 50% (-0.006R) | random 49% (-0.018R)
+  ES=F     : bias 48% (-0.050R) n=949 | opposite 51% (+0.016R) | random 50% (-0.003R)
+
+POOLED: bias win 48.2% (-0.037R, se 0.012) n=7039 | opposite 50.2% (+0.004R) | random 49.3% (-0.014R) | claimed: 70%

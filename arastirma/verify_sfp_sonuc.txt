@@ -1,0 +1,12 @@
+Unfiltered SFP, 1h, ~2y, 2R target / stop beyond SFP bar / 48 bars. mean R (win%) n | random baseline
+  EURUSD=X : SFP -0.039 (32%) n=408 | base +0.165 (39%) | deep swing +0.124 n=87 | shallow -0.083
+  GBPUSD=X : SFP -0.031 (32%) n=459 | base -0.019 (33%) | deep swing -0.005 n=109 | shallow -0.039
+  USDJPY=X : SFP +0.040 (35%) n=489 | base -0.137 (30%) | deep swing +0.029 n=105 | shallow +0.043
+  ES=F     : SFP -0.023 (33%) n=405 | base +0.026 (35%) | deep swing +0.119 n=83 | shallow -0.060
+  NQ=F     : SFP -0.120 (30%) n=410 | base -0.060 (32%) | deep swing -0.155 n=105 | shallow -0.108
+  GC=F     : SFP -0.025 (33%) n=439 | base -0.006 (34%) | deep swing -0.150 n=68 | shallow -0.002
+  CL=F     : SFP +0.060 (36%) n=357 | base +0.062 (36%) | deep swing +0.013 n=91 | shallow +0.076
+  ZN=F     : SFP -0.192 (28%) n=309 | base -0.125 (30%) | deep swing -0.078 n=45 | shallow -0.211
+  BTC-USD  : SFP +0.030 (35%) n=455 | base +0.050 (35%) | deep swing +0.134 n=109 | shallow -0.003
+
+POOLED: SFP -0.028R (win 33%, n=3731) | random -0.005R | diff -0.023 (se 0.032) | deep-swing SFP +0.011 (n=802) | shallow -0.039 (n=2929)

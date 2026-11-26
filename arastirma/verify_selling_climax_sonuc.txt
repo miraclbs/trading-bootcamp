@@ -1,0 +1,10 @@
+Forward return in ATR units (9 ETFs pooled, daily, 2005+)
+all_days       | +5d n=49383 mean +0.14 (se 0.01) up 56% | +10d n=49383 mean +0.29 (se 0.01) up 58% | +20d n=49383 mean +0.56 (se 0.02) up 60%
+decline_any    | +5d n= 9220 mean +0.21 (se 0.02) up 57% | +10d n= 9220 mean +0.34 (se 0.03) up 58% | +20d n= 9220 mean +0.68 (se 0.04) up 61%
+climax_offlow  | +5d n=  113 mean +0.50 (se 0.17) up 60% | +10d n=  113 mean -0.27 (se 0.26) up 47% | +20d n=  113 mean +0.09 (se 0.37) up 55%
+climax_onlow   | +5d n=  277 mean +0.43 (se 0.13) up 61% | +10d n=  277 mean +0.08 (se 0.21) up 54% | +20d n=  277 mean +0.50 (se 0.31) up 65%
+
++10d by period:
+climax_offlow  | 2005-14: n=   49 mean -0.27 (se 0.37) up 41% | 2015+: n=   64 mean -0.27 (se 0.36) up 52%
+climax_onlow   | 2005-14: n=  148 mean +0.16 (se 0.23) up 48% | 2015+: n=  129 mean -0.01 (se 0.36) up 61%
+all_days       | 2005-14: n=22653 mean +0.29 (se 0.02) up 58% | 2015+: n=26730 mean +0.29 (se 0.02) up 58%

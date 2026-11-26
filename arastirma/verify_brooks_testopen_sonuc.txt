@@ -1,0 +1,12 @@
+P(price returns to the day's open after 12:30 | move from open at 12:30 >= thr x ADR), 4 index ETFs pooled
+  thr 0.05 ADR: 25% (n=2630)
+  thr 0.10 ADR: 21% (n=2437)
+  thr 0.20 ADR: 14% (n=1996)
+  thr 0.30 ADR: 10% (n=1624)
+  thr 0.50 ADR: 4% (n=980)
+Random walk (same question):
+  thr 0.05 ADR: 37% (n=18416)
+  thr 0.10 ADR: 32% (n=16828)
+  thr 0.20 ADR: 24% (n=13843)
+  thr 0.30 ADR: 18% (n=11103)
+  thr 0.50 ADR: 9% (n=6566)

@@ -1,0 +1,9 @@
+TEST 1: 100-day breakout / 50-day exit, 30 markets, 1575 trades, mean +0.24R, win 38%, top 10% of trades = 67% of gross gains
+   prior losing streak in that market | n | mean R (se) | win rate
+   0 (last trade won)     |  608 | +0.25R (0.18) | 37%
+   1-2                    |  627 | +0.16R (0.17) | 38%
+   3-4                    |  218 | +0.30R (0.26) | 43%
+   5+                     |  122 | +0.47R (0.50) | 38%
+   2000-2012: after 3+ losers +0.56R (n=124) vs otherwise +0.23R (n=584)
+   2013+: after 3+ losers +0.25R (n=216) vs otherwise +0.18R (n=651)
+TEST 2: random entries, exit at the first profitable close: n=4500 | win 96.0% | mean -0.048R | median hold 2 days | mean hold 18 days | worst 1% -11.8R | still open after 60 days 7.3%

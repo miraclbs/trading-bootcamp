@@ -1,0 +1,20 @@
+2009+ (2009-01-05..2026-11-21), 3863 trades
+  EQ   : 329 trades (18/yr) mean +0.176R (se 0.039) -> +3.2 R/yr (all signals, before caps)
+  CMD  : 2012 trades (113/yr) mean +0.122R (se 0.050) -> +13.8 R/yr (all signals, before caps)
+  RATES: 532 trades (30/yr) mean -0.066R (se 0.092) -> -2.0 R/yr (all signals, before caps)
+  FX   : 990 trades (55/yr) mean -0.073R (se 0.055) -> -4.0 R/yr (all signals, before caps)
+  monthly R correlation between sleeves:
+         EQ   CMD  RATES    FX
+EQ     1.00 -0.15  -0.18 -0.07
+CMD   -0.15  1.00   0.09  0.35
+RATES -0.18  0.09   1.00  0.15
+FX    -0.07  0.35   0.15  1.00
+EQ only        risk 0.5%: CAGR +1.5% maxDD 3.8% taken 310 (17/yr) | 2-step: pass 0% fail 0% timeout 100%
+EQ only        risk 1.0%: CAGR +3.0% maxDD 7.6% taken 310 (17/yr) | 2-step: pass 0% fail 0% timeout 100%
+EQ only        risk 2.0%: CAGR +6.0% maxDD 14.9% taken 310 (17/yr) | 2-step: pass 33% fail 7% timeout 59%
+CMD only       risk 0.5%: CAGR +4.9% maxDD 17.9% taken 833 (47/yr) | 2-step: pass 28% fail 6% timeout 66%
+CMD only       risk 1.0%: CAGR +8.7% maxDD 33.0% taken 836 (47/yr) | 2-step: pass 38% fail 44% timeout 17%
+CMD only       risk 2.0%: CAGR +15.0% maxDD 56.3% taken 836 (47/yr) | 2-step: pass 33% fail 67% timeout 0%
+ALL 4 sleeves  risk 0.5%: CAGR +4.2% maxDD 22.3% taken 2022 (113/yr) | 2-step: pass 27% fail 39% timeout 33%
+ALL 4 sleeves  risk 1.0%: CAGR +9.3% maxDD 39.2% taken 2019 (113/yr) | 2-step: pass 20% fail 80% timeout 0%
+ALL 4 sleeves  risk 2.0%: CAGR +12.7% maxDD 64.6% taken 2026 (113/yr) | 2-step: pass 24% fail 76% timeout 0%

@@ -1,0 +1,15 @@
+(A) Retest of the impulse extreme after the first pullback, within 12 bars
+   ES=F  1h : impulse events n= 524 | retest 56% (se 2%) | distance-matched random 55% | median distance 1.26 avg ranges
+   ES=F  5m : impulse events n= 251 | retest 69% (se 3%) | distance-matched random 54% | median distance 1.25 avg ranges
+   NQ=F  1h : impulse events n= 526 | retest 58% (se 2%) | distance-matched random 58% | median distance 1.21 avg ranges
+   NQ=F  5m : impulse events n= 239 | retest 63% (se 3%) | distance-matched random 55% | median distance 1.23 avg ranges
+(B) Regressive vs flat intraday sizing (100k, up to 6 trades/day, RR 2, personal daily stop -3%)
+   EV/trade | sizing      | mean day | P(day hits -3%) | 5th pct day | P(pass +10% before -10%, 2-Step static)
+   -0.10R   | flat        | -0.403% |          23.9% | -3.00% | 17.4%
+   -0.10R   | regressive  | -0.373% |           0.0% | -2.55% | 14.7%
+   +0.00R   | flat        | +0.003% |          19.6% | -3.00% | 50.7%
+   +0.00R   | regressive  | +0.017% |           0.0% | -2.55% | 50.3%
+   +0.10R   | flat        | +0.415% |          16.2% | -3.00% | 81.1%
+   +0.10R   | regressive  | +0.398% |           0.0% | -2.55% | 82.1%
+   +0.20R   | flat        | +0.847% |          13.4% | -3.00% | 94.7%
+   +0.20R   | regressive  | +0.818% |           0.0% | -2.33% | 96.2%

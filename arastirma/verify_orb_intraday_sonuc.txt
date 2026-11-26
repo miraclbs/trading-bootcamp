@@ -1,0 +1,11 @@
+1h bars ~2 years, regular hours. Net R per trade after $0.02/share cost.
+SPY  (730 days) | ORB stop=OR: -0.015R (se 0.027) n=621 h1 -0.02 h2 -0.01 R/yr -3.3 | ORB stop=mid: +0.021R (se 0.041) n=621 h1 +0.01 h2 +0.04 R/yr +4.6 | random: +0.030R (se 0.032) n=724 h1 +0.06 h2 +0.00 R/yr +7.4
+QQQ  (730 days) | ORB stop=OR: -0.008R (se 0.024) n=574 h1 +0.02 h2 -0.03 R/yr -1.5 | ORB stop=mid: -0.015R (se 0.036) n=574 h1 +0.03 h2 -0.07 R/yr -3.0 | random: +0.018R (se 0.029) n=724 h1 +0.03 h2 +0.00 R/yr +4.4
+IWM  (730 days) | ORB stop=OR: -0.020R (se 0.021) n=555 h1 -0.03 h2 -0.01 R/yr -3.8 | ORB stop=mid: -0.026R (se 0.033) n=555 h1 -0.07 h2 +0.02 R/yr -5.0 | random: -0.002R (se 0.025) n=724 h1 +0.00 h2 -0.01 R/yr -0.5
+DIA  (730 days) | ORB stop=OR: -0.014R (se 0.025) n=567 h1 -0.02 h2 -0.01 R/yr -2.8 | ORB stop=mid: -0.024R (se 0.039) n=567 h1 -0.03 h2 -0.01 R/yr -4.6 | random: +0.001R (se 0.026) n=724 h1 -0.00 h2 +0.01 R/yr +0.2
+GLD  (730 days) | ORB stop=OR: -0.007R (se 0.022) n=554 h1 -0.02 h2 +0.01 R/yr -1.4 | ORB stop=mid: -0.029R (se 0.034) n=554 h1 -0.09 h2 +0.03 R/yr -5.6 | random: -0.018R (se 0.026) n=724 h1 -0.01 h2 -0.02 R/yr -4.5
+TLT  (730 days) | ORB stop=OR: -0.062R (se 0.026) n=603 h1 -0.04 h2 -0.08 R/yr -12.8 | ORB stop=mid: -0.079R (se 0.038) n=603 h1 -0.03 h2 -0.13 R/yr -16.4 | random: -0.066R (se 0.029) n=724 h1 -0.01 h2 -0.12 R/yr -16.4
+XLE  (730 days) | ORB stop=OR: -0.048R (se 0.019) n=501 h1 -0.05 h2 -0.05 R/yr -8.3 | ORB stop=mid: -0.095R (se 0.032) n=501 h1 -0.10 h2 -0.09 R/yr -16.3 | random: -0.026R (se 0.019) n=724 h1 -0.06 h2 +0.01 R/yr -6.4
+XLF  (730 days) | ORB stop=OR: -0.058R (se 0.022) n=514 h1 -0.06 h2 -0.06 R/yr -10.3 | ORB stop=mid: -0.087R (se 0.035) n=514 h1 -0.07 h2 -0.11 R/yr -15.4 | random: -0.029R (se 0.024) n=724 h1 +0.01 h2 -0.07 R/yr -7.3
+SMH  (730 days) | ORB stop=OR: +0.003R (se 0.024) n=498 h1 -0.02 h2 +0.03 R/yr +0.6 | ORB stop=mid: +0.012R (se 0.038) n=498 h1 -0.01 h2 +0.04 R/yr +2.1 | random: -0.013R (se 0.024) n=724 h1 -0.01 h2 -0.01 R/yr -3.3
+EEM  (730 days) | ORB stop=OR: -0.068R (se 0.026) n=562 h1 -0.09 h2 -0.04 R/yr -13.2 | ORB stop=mid: -0.099R (se 0.044) n=562 h1 -0.13 h2 -0.06 R/yr -19.3 | random: -0.079R (se 0.028) n=724 h1 -0.07 h2 -0.08 R/yr -19.7

@@ -1,0 +1,17 @@
+Trades skipped when round-trip cost > 25% of ATR (untradeable). 1h bars, last ~2 years. R per trade gross and net of round-trip cost. Pullback vs random trend-state bar.
+
+INDEX ETF: pullback n=466 gross +0.046R (se 0.066) net +0.034R | cost avg 0.012R median 0.012R | untradeable bars skipped 0
+   long +0.030 (n=241) | short +0.039 (n=225) | 1st half +0.169 | 2nd half -0.079
+   baseline random trend bar: n=1691 gross +0.060R net +0.049R -> pullback minus baseline (net) -0.015R
+
+INDEX FUT: pullback n=1163 gross +0.069R (se 0.042) net +0.032R | cost avg 0.038R median 0.036R | untradeable bars skipped 0
+   long +0.098 (n=587) | short -0.036 (n=576) | 1st half +0.018 | 2nd half +0.045
+   baseline random trend bar: n=4796 gross +0.017R net -0.020R -> pullback minus baseline (net) +0.052R
+
+FX: pullback n=1813 gross +0.060R (se 0.033) net -0.038R | cost avg 0.099R median 0.095R | untradeable bars skipped 246
+   long +0.017 (n=924) | short -0.096 (n=889) | 1st half -0.085 | 2nd half +0.009
+   baseline random trend bar: n=8825 gross -0.022R net -0.119R -> pullback minus baseline (net) +0.081R
+
+GOLD: pullback n=211 gross +0.137R (se 0.099) net +0.103R | cost avg 0.034R median 0.026R | untradeable bars skipped 0
+   long +0.107 (n=111) | short +0.098 (n=100) | 1st half +0.312 | 2nd half -0.068
+   baseline random trend bar: n=1200 gross +0.012R net -0.021R -> pullback minus baseline (net) +0.124R

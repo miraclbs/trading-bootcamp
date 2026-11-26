@@ -1,0 +1,45 @@
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+BTCUSD: 1786 sinyal
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+XAUUSD: 482 sinyal
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+EURUSD: 814 sinyal
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+GBPUSD: 821 sinyal
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+C:\Users\mimi\Desktop\trading bootcamp\arastirma\verify_choch_kombinasyon.py:128: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  "gun": GUNLER[saat.dayofweek],
+USDJPY: 842 sinyal
+
+Toplam sinyal: 4745, ortalama -0.071R | kombinasyon sayısı: 3787
+Yıllara göre sinyal ve ortalama: {2017: {'count': 63, 'mean': 0.058}, 2018: {'count': 197, 'mean': -0.008}, 2019: {'count': 166, 'mean': -0.276}, 2020: {'count': 556, 'mean': -0.013}, 2021: {'count': 715, 'mean': -0.122}, 2022: {'count': 668, 'mean': -0.144}, 2023: {'count': 624, 'mean': -0.0}, 2024: {'count': 587, 'mean': -0.087}, 2025: {'count': 658, 'mean': -0.095}, 2026: {'count': 511, 'mean': 0.027}}
+
+=== Her yılın en iyisi (n ≥ 25) ve ertesi yıl ===
+2017: supurme=yok + ema_testi=evet | 2017: +0.51R (n=29) → 2018: +0.34R (n=78)
+2018: ust_trend=ters + ema_testi=evet + seans=Asya | 2018: +1.15R (n=26) → 2019: -0.54R (n=8)
+2019: ema200=aleyhine + vol_rejim=0,8-1,2 + seans=New York | 2019: +0.30R (n=28) → 2020: -0.00R (n=82)
+2020: ust_trend=uyumlu + adx_4h=<20 + seans=New York | 2020: +0.90R (n=26) → 2021: -0.05R (n=37)
+2021: ust_trend=uyumlu + adx_4h=<20 + gun=Per | 2021: +0.52R (n=28) → 2022: +0.05R (n=29)
+2022: ema200=lehine + seans=New York + gun=Per | 2022: +0.64R (n=30) → 2023: -0.04R (n=25)
+2023: supurme=var + ema_testi=evet + gun=Pzt | 2023: +0.82R (n=32) → 2024: +0.07R (n=31)
+2024: supurme=var + adx_4h=20-30 + seans=New York | 2024: +0.67R (n=30) → 2025: +0.34R (n=32)
+2025: supurme=yok + ema_testi=hayır + rsi_gunluk=>60 | 2025: +0.77R (n=25) → 2026: -0.51R (n=25)
+Yılın en iyisinin ertesi yıl ortalaması: -0.039R | o yılların bütün sinyalleri: -0.072R
+
+=== Seç (<2023) / doğrula (2023) / sına (2024-26) ===
+Seçilen (n ≥ 40, t ≥ 3): 0 | geçen: 0
+Geçenler:
+Şans makinesi (20 tekrar): seçilen ortalama 0.1, geçen ortalama 0.00 (en çok 0)

@@ -1,0 +1,31 @@
+== Equal EV (+0.15R), 50k: +3000 target / -2000 max loss ==
+-- risk $250 per trade (0.5% of account, 8R of room)
+   A WR65 (low var) RR 0.77 | static: 93.4% | eod: 88.2% | intraday: 86.9%
+   B WR55 (mid var) RR 1.09 | static: 87.5% | eod: 78.1% | intraday: 75.1%
+   C WR35 (high var) RR 2.29 | static: 70.3% | eod: 55.1% | intraday: 51.4%
+-- risk $500 per trade (1.0% of account, 4R of room)
+   A WR65 (low var) RR 0.77 | static: 83.6% | eod: 70.0% | intraday: 65.7%
+   B WR55 (mid var) RR 1.09 | static: 73.5% | eod: 61.2% | intraday: 55.1%
+   C WR35 (high var) RR 2.29 | static: 56.3% | eod: 45.3% | intraday: 40.1%
+-- risk $1000 per trade (2.0% of account, 2R of room)
+   A WR65 (low var) RR 0.77 | static: 66.9% | eod: 56.4% | intraday: 48.2%
+   B WR55 (mid var) RR 1.09 | static: 59.5% | eod: 51.0% | intraday: 43.8%
+   C WR35 (high var) RR 2.29 | static: 43.9% | eod: 40.1% | intraday: 35.0%
+
+== Zero-edge 50% 1:1 (theory: P = 2000/5000 = 40% static, no time limit) ==
+risk $250: static 40.5%
+risk $500: static 40.3%
+risk $1000: static 39.7%
+
+== Negative edge 40% 1:1: bigger risk -> higher pass chance (gambling) ==
+risk $250: static 0.8%
+risk $500: static 7.5%
+risk $1000: static 19.3%
+
+== Exact-4-trade-group all losses: (1-WR)^4 ==
+WR 45%: 9.2%
+WR 55%: 4.1%
+WR 65%: 1.5%
+
+== Economics: Mulham example ==
+100 x $150 = $15000, payouts 6 x $2000 = $12000, net $-3000 (per challenge $-30)

@@ -1,0 +1,18 @@
+(1) Variable sizing on a +0.15R/lot strategy (WR 50%, win 1.3R), 200 trades, 20,000 runs
+
+(2) Breakeven stop. Gaussian random walk, 1 step sd = 1, stop = 10 (1R), target = 20 (2R), 20,000 trades
+  drift +0.00/step:
+     no BE: EV -0.001R (se 0.010), 34% full win, 0% scratch, EV/100 steps -0.001
+     BE@+0.5R: EV -0.005R (se 0.008), 19% full win, 46% scratch, EV/100 steps -0.004
+     BE@+1.0R: EV -0.004R (se 0.009), 26% full win, 24% scratch, EV/100 steps -0.002
+     BE@+1.5R: EV -0.009R (se 0.010), 30% full win, 10% scratch, EV/100 steps -0.005
+  drift +0.01/step:
+     no BE: EV +0.210R (se 0.011), 41% full win, 0% scratch, EV/100 steps +0.093
+     BE@+0.5R: EV +0.129R (se 0.008), 23% full win, 46% scratch, EV/100 steps +0.105
+     BE@+1.0R: EV +0.142R (se 0.010), 31% full win, 23% scratch, EV/100 steps +0.082
+     BE@+1.5R: EV +0.199R (se 0.010), 37% full win, 9% scratch, EV/100 steps +0.097
+  drift +0.03/step:
+     no BE: EV +0.668R (se 0.011), 55% full win, 0% scratch, EV/100 steps +0.297
+     BE@+0.5R: EV +0.394R (se 0.009), 33% full win, 43% scratch, EV/100 steps +0.299
+     BE@+1.0R: EV +0.542R (se 0.010), 45% full win, 21% scratch, EV/100 steps +0.302
+     BE@+1.5R: EV +0.610R (se 0.011), 51% full win, 8% scratch, EV/100 steps +0.295

@@ -1,0 +1,16 @@
+1h bars ~2 years. signed return of the target window, bps; net = after $0.02/share round trip
+SPY  days=723 | P1: gross -0.81bp (t -1.0) hit 49% net -1.13bp Sharpe -0.83 | P2: gross +1.00bp (t +0.7) hit 48% net +0.68bp Sharpe +0.27 | P3: gross -2.10bp (t -2.6) hit 45% net -2.42bp Sharpe -1.78
+QQQ  days=723 | P1: gross -0.76bp (t -0.8) hit 48% net -1.13bp Sharpe -0.66 | P2: gross +2.11bp (t +1.1) hit 50% net +1.74bp Sharpe +0.56 | P3: gross -2.10bp (t -2.1) hit 48% net -2.47bp Sharpe -1.45
+IWM  days=723 | P1: gross +0.53bp (t +0.6) hit 51% net -0.33bp Sharpe -0.21 | P2: gross +1.53bp (t +0.8) hit 51% net +0.66bp Sharpe +0.21 | P3: gross -2.45bp (t -2.7) hit 49% net -3.31bp Sharpe -2.16
+DIA  days=723 | P1: gross -1.25bp (t -1.8) hit 47% net -1.70bp Sharpe -1.48 | P2: gross -0.27bp (t -0.2) hit 47% net -0.73bp Sharpe -0.33 | P3: gross -0.95bp (t -1.4) hit 48% net -1.40bp Sharpe -1.22
+XLK  days=723 | P1: gross -0.64bp (t -0.5) hit 49% net -2.21bp Sharpe -1.05 | P2: gross +0.16bp (t +0.1) hit 49% net -1.41bp Sharpe -0.38 | P3: gross -2.43bp (t -2.0) hit 49% net -4.01bp Sharpe -1.91
+XLF  days=723 | P1: gross +0.10bp (t +0.1) hit 50% net -4.01bp Sharpe -2.92 | P2: gross +0.42bp (t +0.3) hit 48% net -3.69bp Sharpe -1.47 | P3: gross -0.24bp (t -0.3) hit 50% net -4.35bp Sharpe -3.19
+SMH  days=723 | P1: gross -0.10bp (t -0.1) hit 48% net -0.78bp Sharpe -0.26 | P2: gross -0.64bp (t -0.2) hit 49% net -1.33bp Sharpe -0.26 | P3: gross -3.13bp (t -1.8) hit 47% net -3.81bp Sharpe -1.29
+XLE  days=723 | P1: gross -0.34bp (t -0.3) hit 49% net -4.52bp Sharpe -2.68 | P2: gross -1.00bp (t -0.6) hit 49% net -5.19bp Sharpe -1.79 | P3: gross -1.80bp (t -1.8) hit 48% net -5.99bp Sharpe -3.55
+GLD  days=723 | P1: gross +1.15bp (t +2.0) hit 52% net +0.46bp Sharpe +0.47 | P2: gross +0.06bp (t +0.0) hit 46% net -0.63bp Sharpe -0.26 | P3: gross +1.20bp (t +2.1) hit 53% net +0.51bp Sharpe +0.51
+TLT  days=723 | P1: gross +0.60bp (t +1.5) hit 49% net -1.65bp Sharpe -2.41 | P2: gross -0.43bp (t -0.5) hit 51% net -2.68bp Sharpe -1.76 | P3: gross +0.36bp (t +0.9) hit 48% net -1.89bp Sharpe -2.76
+
+Pooled (equal weight across symbols; index ETFs are highly correlated, so the pooled t-stat is optimistic):
+  P1: gross -0.15bp (t -0.5) | net -1.70bp | SPY alone: Sharpe -0.83, R/yr (1R = 1 sd) -13.1
+  P2: gross +0.29bp (t +0.5) | net -1.25bp | SPY alone: Sharpe +0.27, R/yr (1R = 1 sd) +4.3
+  P3: gross -1.36bp (t -4.4) | net -2.91bp | SPY alone: Sharpe -1.78, R/yr (1R = 1 sd) -28.2

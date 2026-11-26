@@ -1,0 +1,17 @@
+A) Connors RSI(2) long. per-trade net % / R (1R = ATR14), trades per year, hold days, R/yr per symbol
+  SPY  | pre2009: n=116 (7.3/yr) avg +0.82% / +0.55R win 82% R/yr +4.0 | post2009: n=151 (8.5/yr) avg +0.51% / +0.50R win 74% R/yr +4.3 | avg hold 3.4d
+  QQQ  | pre2009: n=56 (5.7/yr) avg +0.69% / +0.31R win 70% R/yr +1.8 | post2009: n=158 (8.8/yr) avg +0.53% / +0.44R win 71% R/yr +3.9 | avg hold 3.7d
+  IWM  | pre2009: n=58 (6.8/yr) avg +0.69% / +0.40R win 81% R/yr +2.7 | post2009: n=136 (7.6/yr) avg +0.25% / +0.16R win 71% R/yr +1.2 | avg hold 3.7d
+  DIA  | pre2009: n=63 (5.8/yr) avg +0.20% / +0.16R win 63% R/yr +0.9 | post2009: n=164 (9.2/yr) avg +0.31% / +0.35R win 75% R/yr +3.2 | avg hold 3.5d
+  EFA  | pre2009: n=41 (5.6/yr) avg +0.46% / +0.41R win 73% R/yr +2.3 | post2009: n=130 (7.3/yr) avg +0.29% / +0.19R win 73% R/yr +1.4 | avg hold 3.8d
+  EWJ  | pre2009: n=61 (4.8/yr) avg +0.72% / +0.39R win 72% R/yr +1.9 | post2009: n=117 (6.6/yr) avg +0.24% / +0.18R win 67% R/yr +1.2 | avg hold 3.7d
+  EWG  | pre2009: n=86 (6.7/yr) avg +0.70% / +0.46R win 76% R/yr +3.1 | post2009: n=126 (7.1/yr) avg +0.50% / +0.44R win 72% R/yr +3.1 | avg hold 3.5d
+  EWU  | pre2009: n=73 (5.7/yr) avg +1.14% / +0.71R win 88% R/yr +4.1 | post2009: n=127 (7.1/yr) avg +0.43% / +0.35R win 71% R/yr +2.5 | avg hold 3.4d
+  pooled pre2009: n=554 avg +0.71% (se 0.08) +0.447R (se 0.052) win 77%
+  pooled post2009: n=1109 avg +0.39% (se 0.06) +0.333R (se 0.048) win 72%
+
+B) Overnight (close -> next open) vs intraday (open -> close). annualised return, Sharpe, by era. 1bp cost
+  SPY  | <=2008: overnight +8.4%/yr Sh +0.84, intraday -4.6%/yr Sh -0.27 | 2009-2017: overnight +4.4%/yr Sh +0.44, intraday +7.2%/yr Sh +0.58 | 2018+: overnight +7.5%/yr Sh +0.61, intraday +2.2%/yr Sh +0.15
+  QQQ  | <=2008: overnight +12.1%/yr Sh +0.72, intraday -19.9%/yr Sh -0.63 | 2009-2017: overnight +9.3%/yr Sh +0.90, intraday +7.6%/yr Sh +0.53 | 2018+: overnight +9.5%/yr Sh +0.64, intraday +4.0%/yr Sh +0.21
+  IWM  | <=2008: overnight +10.4%/yr Sh +0.83, intraday -10.9%/yr Sh -0.47 | 2009-2017: overnight +6.8%/yr Sh +0.58, intraday +4.7%/yr Sh +0.26 | 2018+: overnight +13.1%/yr Sh +0.86, intraday -8.5%/yr Sh -0.45
+  DIA  | <=2008: overnight +3.8%/yr Sh +0.36, intraday -3.5%/yr Sh -0.19 | 2009-2017: overnight +4.5%/yr Sh +0.50, intraday +7.0%/yr Sh +0.62 | 2018+: overnight +5.9%/yr Sh +0.48, intraday +1.0%/yr Sh +0.07
